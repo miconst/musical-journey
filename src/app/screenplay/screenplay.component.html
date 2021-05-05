@@ -1,0 +1,7 @@
+<div class="screenplay" *ngIf="items">
+  <div role="act" *ngFor="let item of items; index as i">
+    <div role="actor" [attr.aria-selected]="isItemSelected(i)" (click)="onItemClick(i)">{{item.actor}}:</div>
+    <div role="text" *ngFor="let line of item.lines; index as j" [attr.aria-selected]="isSubItemSelected(i, j)"
+      (click)="onSubItemClick(i, j)">{{line}}</div>
+  </div>
+</div>

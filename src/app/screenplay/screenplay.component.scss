@@ -1,0 +1,46 @@
+.screenplay {
+  display: flex;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  flex-wrap: wrap;
+
+  div[role="act"] {
+    display: block;
+    padding: 0.5em;
+  }
+
+  div[role="actor"] {
+    display: block;
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline dotted;
+    }
+
+    &[aria-selected="true"] {
+      color: #4b0f1b;
+      text-decoration: underline dotted;
+    }
+  }
+
+  div[role="text"] {
+    display: block;
+    cursor: pointer;
+    padding-left: 4em;
+    padding-bottom: 0.5em;
+
+    &:hover {
+      text-decoration: underline dashed;
+    }
+
+    &[aria-selected="true"] {
+      // background-color: yellow;
+      // font-weight: 600;
+      color: #81142a;
+      text-decoration: underline dashed;
+    }
+  }
+}
