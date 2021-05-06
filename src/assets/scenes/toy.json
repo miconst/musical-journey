@@ -194,5 +194,91 @@
         "end": 65
       }
     ]
+  }, {
+    "videoId": "9aOKFR3M7AI",
+    "speech": [{
+        "actor": "Sam",
+        "text": "Follow me, follow me,",
+        "start": 5,
+        "end": 6.97
+      },
+      {
+        "text": "March if you can!",
+        "start": 6.97,
+        "end": 8.57
+      },
+      {
+        "text": "Swing your arms,",
+        "start": 8.57,
+        "end": 10.2
+      },
+      {
+        "text": "And count to ten!",
+        "start": 10.2,
+        "end": 12.47
+      },
+      {
+        "text": "One, two,",
+        "start": 12.47,
+        "end": 14.53
+      },
+      {
+        "text": "One, two, three!",
+        "start": 14.53,
+        "end": 16.51
+      },
+      {
+        "text": "Come on, everyone,",
+        "start": 16.51,
+        "end": 18.5
+      },
+      {
+        "text": "Follow me! Follow me!",
+        "start": 18.5,
+        "end": 22.495
+      },
+      {
+        "actor": "All",
+        "text": "Hooray! Hooray!",
+        "start": 22.495,
+        "end": 24.24
+      },
+      {
+        "text": "It's the end of the day!",
+        "start": 24.24,
+        "end": 26.43
+      },
+      {
+        "text": "It's time for us",
+        "start": 26.43,
+        "end": 28.13
+      },
+      {
+        "text": "To come out and play!",
+        "start": 28.13,
+        "end": 31.21
+      },
+      {
+        "actor": "Narrator",
+        "text": "And now the day",
+        "start": 34.24,
+        "end": 36.09
+      },
+      {
+        "text": "Is here again!",
+        "start": 36.09,
+        "end": 37.6
+      },
+      {
+        "text": "The toys can't march,",
+        "start": 37.6,
+        "end": 39.75
+      },
+      {
+        "text": "Or count to ten.",
+        "start": 39.75,
+        "end": 42
+      }
+    ]
   }]
 }
