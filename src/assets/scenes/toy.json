@@ -87,5 +87,112 @@
         "end": 72
       }
     ]
+  }, {
+    "videoId": "5sbmLkCIVdw",
+    "speech": [{
+        "actor": "Narrator",
+        "text": "And now it is",
+        "start": 1.2,
+        "end": 3
+      },
+      {
+        "text": "The end of the day.",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "text": "Time for the toys",
+        "start": 5,
+        "end": 6.4
+      },
+      {
+        "text": "To come out and play.",
+        "start": 6.4,
+        "end": 8.6
+      },
+      {
+        "actor": "Ted",
+        "text": "Hello, I'm Ted.",
+        "start": 18.9,
+        "end": 20.66
+      },
+      {
+        "text": "I'm a teddy bear.",
+        "start": 20.66,
+        "end": 22.45
+      },
+      {
+        "text": "Look, my friends",
+        "start": 22.45,
+        "end": 24.1
+      },
+      {
+        "text": "Are over there!",
+        "start": 24.1,
+        "end": 25.7
+      },
+      {
+        "text": "That's Dolly the doll",
+        "start": 25.7,
+        "end": 27.4
+      },
+      {
+        "text": "And Jack in his box",
+        "start": 27.4,
+        "end": 29.6
+      },
+      {
+        "text": "And Pip the puppet -",
+        "start": 29.6,
+        "end": 31.4
+      },
+      {
+        "text": "One of William's socks!",
+        "start": 31.4,
+        "end": 33.6
+      },
+      {
+        "actor": "Sam",
+        "text": "I'm Sam, the toy soldier.",
+        "start": 45.6,
+        "end": 48.4
+      },
+      {
+        "text": "How do you do?",
+        "start": 48.4,
+        "end": 50.1
+      },
+      {
+        "text": "It's very nice",
+        "start": 50.1,
+        "end": 51.76
+      },
+      {
+        "text": "To meet all of you!",
+        "start": 51.76,
+        "end": 54
+      },
+      {
+        "actor": "Bella",
+        "text": "And my name's Bella.",
+        "start": 57,
+        "end": 59
+      },
+      {
+        "text": "Hello, everyone!",
+        "start": 59,
+        "end": 60.66
+      },
+      {
+        "text": "I like it here,",
+        "start": 60.66,
+        "end": 62.4
+      },
+      {
+        "text": "It's lots of fun!",
+        "start": 62.4,
+        "end": 65
+      }
+    ]
   }]
 }
