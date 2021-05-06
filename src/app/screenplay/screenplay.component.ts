@@ -1,13 +1,31 @@
-import { Component, Input, OnInit } from '@angular/core';
+// tslint:disable: variable-name
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Cue } from '../scene-model';
 
-export interface ScreenplayItem {
+interface ScreenplayItem {
   actor: string;
-  lines: string[];
+  lines: Cue[];
 }
 
-export interface ScreenplaySelection {
-  actIndex: number;
-  lineIndex: number;
+function makeScreenplay(speech: ReadonlyArray<Cue>): ScreenplayItem[] {
+  const play: ScreenplayItem[] = [];
+  let next: ScreenplayItem = { actor: '', lines: [] };
+  for (const line of speech) {
+    const actor = line.actor || next.actor;
+    if (actor !== next.actor) {
+      if (next.lines.length > 0) {
+        play.push(next);
+        next = { actor, lines: [] };
+      } else {
+        next.actor = actor;
+      }
+    }
+    next.lines.push(line);
+  }
+  if (next.lines.length > 0) {
+    play.push(next);
+  }
+  return play;
 }
 
 @Component({
@@ -16,37 +34,45 @@ export interface ScreenplaySelection {
   styleUrls: ['./screenplay.component.scss']
 })
 export class ScreenplayComponent implements OnInit {
-  @Input() items: ScreenplayItem[] = [
-    {
-      actor: 'Daddy',
-      lines: [
-        'Here\'s a toy', 'For my little boy.', 'A toy soldier for you', 'And his jacket is blue!'
-      ]
-    },
-    {
-      actor: 'William',
-      lines: [
-        'Thank you, Daddy!', 'He\'s very nice -', 'He\'s got dark hair', 'And big brown eyes!'
-      ]
-    },
-    {
-      actor: 'Daddy',
-      lines: [
-        'And what have I got', 'For my little Rose?', 'A ballerina -', 'She can dance on her toes!'
-      ]
-    },
-    {
-      actor: 'Rose',
-      lines: [
-        'Thank you, Daddy!', 'She\'s beautiful too!', 'She\'s got a pretty pink skirt', 'And pretty pink shoes!'
-      ]
-    },
-  ];
+  screenplay: ReadonlyArray<ScreenplayItem> = [];
+  private _items: ReadonlyArray<Cue> = [];
 
-  @Input() selection: ScreenplaySelection = {
-    actIndex: -1,
-    lineIndex: -1
-  };
+  @Input() set items(value: ReadonlyArray<Cue>) {
+    this._items = value;
+    this.screenplay = makeScreenplay(value);
+  }
+
+  get items(): ReadonlyArray<Cue> {
+    return this._items;
+  }
+
+  actIndex = -1;
+  lineIndex = -1;
+  private _selection = -1;
+
+  @Input() set selection(value: number) {
+    this._selection = value;
+    this.actIndex = -1;
+    this.lineIndex = -1;
+    if (value >= 0) {
+      for (let i = 0; i < this.screenplay.length; i++) {
+        const length = this.screenplay[i].lines.length;
+        if (value < length) {
+          this.actIndex = i;
+          this.lineIndex = value;
+          break;
+        } else {
+          value -= length;
+        }
+      }
+    }
+  }
+
+  get selection(): number {
+    return this._selection;
+  }
+
+  @Output() selectionChange = new EventEmitter<number>();
 
   constructor() { }
 
@@ -54,18 +80,21 @@ export class ScreenplayComponent implements OnInit {
   }
 
   onItemClick(actIndex: number): void {
-    this.selection = { actIndex, lineIndex: 0 };
+    this.onSubItemClick(actIndex, 0);
   }
 
   onSubItemClick(actIndex: number, lineIndex: number): void {
-    this.selection = { actIndex, lineIndex };
-  }
-
-  isItemSelected(actIndex: number): boolean {
-    return !!this.selection && this.selection.actIndex === actIndex;
-  }
-
-  isSubItemSelected(actIndex: number, lineIndex: number): boolean {
-    return !!this.selection && this.selection.actIndex === actIndex && this.selection.lineIndex === lineIndex;
+    const act = this.screenplay[actIndex];
+    if (act) {
+      const cue = act.lines[lineIndex];
+      if (cue) {
+        for (let i = this._items.length; i-- > 0;) {
+          if (cue === this._items[i]) {
+            this.selectionChange.emit(i);
+            break;
+          }
+        }
+      }
+    }
   }
 }
