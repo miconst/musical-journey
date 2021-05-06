@@ -5,14 +5,29 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { HttpClientModule } from '@angular/common/http';
+
+import { YouTubePlayerModule } from '@angular/youtube-player';
+
+import { ScreenplayComponent } from './screenplay/screenplay.component';
+import { SceneComponent } from './scene/scene.component';
+import { MaterialModule } from './material/material.module';
+import { VideoPlayerComponent } from './video-player/video-player.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScreenplayComponent,
+    SceneComponent,
+    VideoPlayerComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    BrowserModule,
+    HttpClientModule,
+    MaterialModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
