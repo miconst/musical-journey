@@ -1,0 +1,23 @@
+<ng-template #templateError>
+  <div>
+    <mat-icon>sentiment_very_dissatisfied</mat-icon>
+    {{errorMessage}}
+  </div>
+</ng-template>
+
+<ng-template #templateLoading>
+  <div *ngIf="!errorMessage; else templateError">Loading...</div>
+</ng-template>
+
+<div *ngIf="scene; else templateLoading">
+  <h1>{{scene.name}}</h1>
+  <h3>Stage: {{stageIndex + 1}}</h3>
+  <ng-container *ngIf="scene.play[stageIndex] as stage">
+    <div style="padding: 1em;">
+      <app-video-player #player [videoId]="stage.videoId" (currentTimeChange)="onVideoChange($event)">
+      </app-video-player>
+    </div>
+    <app-screenplay [items]="stage.speech" [selection]="speechIndex" (selectionChange)="onLineChange($event)">
+    </app-screenplay>
+  </ng-container>
+</div>
