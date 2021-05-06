@@ -58,6 +58,28 @@ export class SceneComponent implements OnInit {
     }
   }
 
+  hasPrevStage(): boolean {
+    const stage = this.scene?.play[this.stageIndex - 1];
+    return !!stage;
+  }
+
+  onPrevStage(): void {
+    if (this.hasPrevStage()) {
+      this._setStage(this.stageIndex - 1);
+    }
+  }
+
+  hasNextStage(): boolean {
+    const stage = this.scene?.play[this.stageIndex + 1];
+    return !!stage;
+  }
+
+  onNextStage(): void {
+    if (this.hasNextStage()) {
+      this._setStage(this.stageIndex + 1);
+    }
+  }
+
   private _setScene(scene: SceneModel): void {
     this.scene = scene;
     this._setStage(0);

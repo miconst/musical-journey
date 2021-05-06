@@ -11,7 +11,15 @@
 
 <div *ngIf="scene; else templateLoading">
   <h1>{{scene.name}}</h1>
-  <h3>Stage: {{stageIndex + 1}}</h3>
+  <div>
+    <button mat-icon-button aria-label="previous stage" [disabled]="!hasPrevStage()" (click)="onPrevStage()">
+      <mat-icon>navigate_before</mat-icon>
+    </button>
+    <span>Stage: {{stageIndex + 1}}</span>
+    <button mat-icon-button aria-label="next stage" [disabled]="!hasNextStage()" (click)="onNextStage()">
+      <mat-icon>navigate_next</mat-icon>
+    </button>
+  </div>
   <ng-container *ngIf="scene.play[stageIndex] as stage">
     <div style="padding: 1em;">
       <app-video-player #player [videoId]="stage.videoId" (currentTimeChange)="onVideoChange($event)">
