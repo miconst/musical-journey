@@ -280,5 +280,241 @@
         "end": 42
       }
     ]
+  }, {
+    "videoId": "4_N1OKKXb4o",
+    "speech": [{
+        "actor": "Narrator",
+        "text": "Now William and Rose",
+        "start": 6,
+        "end": 8.16
+      },
+      {
+        "text": "Are playing, you see -",
+        "start": 8.16,
+        "end": 10
+      },
+      {
+        "text": "But here comes Mummy,",
+        "start": 10,
+        "end": 12
+      },
+      {
+        "text": "It's time for tea!",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "actor": "Mummy",
+        "text": "Time for tea! Time for tea!",
+        "start": 14,
+        "end": 16.46
+      },
+      {
+        "text": "Come on! Come on!",
+        "start": 16.46,
+        "end": 18.1
+      },
+      {
+        "text": "Put your toys on the shelf",
+        "start": 18.1,
+        "end": 20.32
+      },
+      {
+        "text": "And run, run, run!",
+        "start": 20.32,
+        "end": 22.4
+      },
+      {
+        "actor": "Narrator",
+        "text": "Oh dear, poor Sam!",
+        "start": 30,
+        "end": 32.83
+      },
+      {
+        "text": "He's not on the shelf.",
+        "start": 32.83,
+        "end": 34.92
+      },
+      {
+        "text": "He's there by the window",
+        "start": 34.92,
+        "end": 37.24
+      },
+      {
+        "text": "All by himself!",
+        "start": 37.24,
+        "end": 39.5
+      },
+      {
+        "text": "It's windy today,",
+        "start": 39.5,
+        "end": 41.4
+      },
+      {
+        "text": "Look out! Look out!",
+        "start": 41.4,
+        "end": 43.8
+      },
+      {
+        "text": "Oh dear, poor Sam,",
+        "start": 43.8,
+        "end": 46.17
+      },
+      {
+        "text": "Can you hear him shout?",
+        "start": 46.17,
+        "end": 48.84
+      }
+    ]
+  }, {
+    "videoId": "4QO4OT0Rtp4",
+    "speech": [{
+        "actor": "Sam",
+        "text": "Help me! Help me!",
+        "start": 5,
+        "end": 7.16
+      },
+      {
+        "text": "Help me, please!",
+        "start": 7.16,
+        "end": 9
+      },
+      {
+        "text": "I'm here outside",
+        "start": 9,
+        "end": 10.94
+      },
+      {
+        "text": "With the flowers and trees!",
+        "start": 10.94,
+        "end": 13.4
+      },
+      {
+        "text": "Where am I? Where am I?",
+        "start": 13.4,
+        "end": 16.1
+      },
+      {
+        "text": "Where are my friends?",
+        "start": 16.1,
+        "end": 18.13
+      },
+      {
+        "text": "Where's Bella? Where's Ted?",
+        "start": 18.13,
+        "end": 20.42
+      },
+      {
+        "text": "Oh no! This is the end!",
+        "start": 20.42,
+        "end": 23.4
+      },
+      {
+        "actor": "Ted",
+        "text": "Come on, time to play,",
+        "start": 32.9,
+        "end": 35.39
+      },
+      {
+        "text": "I'm happy, I am!",
+        "start": 35.39,
+        "end": 38
+      },
+      {
+        "text": "But where's the toy soldier?",
+        "start": 38,
+        "end": 40.93
+      },
+      {
+        "text": "Where's our friend Sam?",
+        "start": 40.93,
+        "end": 43.2
+      }
+    ]
+  }, {
+    "videoId": "n3aI2aYLsMI",
+    "speech": [{
+        "actor": "Bella",
+        "text": "Is he under the chair?",
+        "start": 3.93,
+        "end": 5.93
+      },
+      {
+        "text": "Is he there? Is he there?",
+        "start": 5.93,
+        "end": 8.47
+      },
+      {
+        "text": "Is he on the shelf",
+        "start": 8.47,
+        "end": 10.14
+      },
+      {
+        "text": "With the big teddy bear?",
+        "start": 10.14,
+        "end": 12
+      },
+      {
+        "text": "Oh, where is poor Sam?",
+        "start": 12,
+        "end": 15
+      },
+      {
+        "text": "Oh dear! Oh dear!",
+        "start": 15,
+        "end": 17.76
+      },
+      {
+        "text": "He's not over there,",
+        "start": 17.76,
+        "end": 19.56
+      },
+      {
+        "text": "He's not over here!",
+        "start": 19.56,
+        "end": 21.72
+      },
+      {
+        "actor": "Narrator",
+        "text": "It's sunny now,",
+        "start": 25.7,
+        "end": 27.55
+      },
+      {
+        "text": "The sky is blue,",
+        "start": 27.55,
+        "end": 29.64
+      },
+      {
+        "text": "But poor old Sam,",
+        "start": 29.64,
+        "end": 31.68
+      },
+      {
+        "text": "What can he do?",
+        "start": 31.68,
+        "end": 33.6
+      },
+      {
+        "text": "A big black dog",
+        "start": 33.6,
+        "end": 35.42
+      },
+      {
+        "text": "Comes running out,",
+        "start": 35.42,
+        "end": 37.26
+      },
+      {
+        "text": "And puts the toy soldier",
+        "start": 37.26,
+        "end": 39.72
+      },
+      {
+        "text": "In his mouth.",
+        "start": 39.72,
+        "end": 42.4
+      }
+    ]
   }]
 }
