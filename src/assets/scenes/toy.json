@@ -1,7 +1,44 @@
 {
-  "name": "The Toy Soldier",
+  "styles": {
+    "position": "relative",
+    "width": "742px",
+    "height": "618px",
+    "background-color": "transparent",
+    "background-image": "url('assets/scenes/vintage-frame-1.png')"
+  },
+  "header": {
+    "label": "The Toy Soldier",
+    "styles": {
+      "position": "absolute",
+      "left": "372px",
+      "top": "28px",
+      "font-size": "44px",
+      "font-weight": "600",
+      "transform": "translate(-50%, -50%)",
+      "color": "#6f0000"
+    }
+  },
+  "footer": {
+    "label": "Stage",
+    "styles": {
+      "position": "absolute",
+      "right": "16px",
+      "bottom": "16px",
+      "font-size": "20px",
+      "color": "#0a0840"
+    }
+  },
+  "video": {
+    "width": 600,
+    "height": 480,
+    "styles": {
+      "position": "absolute",
+      "left": "70px",
+      "top": "80px"
+    }
+  },
   "play": [{
-    "videoId": "bFWxtfgbrOY",
+    "videoId": "x7MEfZDKq1A",
     "speech": [{
         "actor": "Daddy",
         "text": "Here's a toy",
@@ -88,7 +125,7 @@
       }
     ]
   }, {
-    "videoId": "5sbmLkCIVdw",
+    "videoId": "aceRVqyLSbw",
     "speech": [{
         "actor": "Narrator",
         "text": "And now it is",
@@ -195,7 +232,7 @@
       }
     ]
   }, {
-    "videoId": "9aOKFR3M7AI",
+    "videoId": "PL-HhdJe480",
     "speech": [{
         "actor": "Sam",
         "text": "Follow me, follow me,",
@@ -281,7 +318,7 @@
       }
     ]
   }, {
-    "videoId": "4_N1OKKXb4o",
+    "videoId": "oKecspufzKQ",
     "speech": [{
         "actor": "Narrator",
         "text": "Now William and Rose",
@@ -367,7 +404,7 @@
       }
     ]
   }, {
-    "videoId": "4QO4OT0Rtp4",
+    "videoId": "MEECz0cCyeo",
     "speech": [{
         "actor": "Sam",
         "text": "Help me! Help me!",
@@ -432,7 +469,7 @@
       }
     ]
   }, {
-    "videoId": "n3aI2aYLsMI",
+    "videoId": "KuQ4_IF4nhA",
     "speech": [{
         "actor": "Bella",
         "text": "Is he under the chair?",
@@ -514,6 +551,126 @@
         "text": "In his mouth.",
         "start": 39.72,
         "end": 42.4
+      }
+    ]
+  }, {
+    "videoId": "B139e0vckmo",
+    "speech": [{
+        "actor": "William",
+        "text": "Oh, Blackie, what's this?",
+        "start": 7,
+        "end": 9.75
+      },
+      {
+        "text": "Is it for me?",
+        "start": 9.75,
+        "end": 11.48
+      },
+      {
+        "text": "It's Sam, my toy soldier!",
+        "start": 11.48,
+        "end": 14.12
+      },
+      {
+        "text": "How can that be?",
+        "start": 14.12,
+        "end": 16
+      },
+      {
+        "text": "Thank you, dear Blackie,",
+        "start": 16,
+        "end": 18
+      },
+      {
+        "text": "Good boy! Good boy!",
+        "start": 18,
+        "end": 20.13
+      },
+      {
+        "text": "Now I can play",
+        "start": 20.13,
+        "end": 21.64
+      },
+      {
+        "text": "With my favourite toy!",
+        "start": 21.64,
+        "end": 23.7
+      },
+      {
+        "actor": "Ted",
+        "text": "Sam's here! Sam's here!",
+        "start": 33.7,
+        "end": 36.2
+      },
+      {
+        "text": "Everyone, cheer.",
+        "start": 36.2,
+        "end": 37.8
+      },
+      {
+        "text": "Now all our friends",
+        "start": 37.8,
+        "end": 39.6
+      },
+      {
+        "text": "Are together again.",
+        "start": 39.6,
+        "end": 41.18
+      },
+      {
+        "text": "Let's dance and play -",
+        "start": 41.18,
+        "end": 43.3
+      },
+      {
+        "text": "Let's all shout HOORAY!",
+        "start": 43.3,
+        "end": 45.8
+      }
+    ]
+  }, {
+    "videoId": "TM_4MppZzio",
+    "speech": [{
+        "actor": "Bella",
+        "text": "I like all the toys",
+        "start": 5,
+        "end": 6.95
+      },
+      {
+        "text": "In the children's playroom,",
+        "start": 6.95,
+        "end": 9.04
+      },
+      {
+        "text": "But my favourite toy,",
+        "start": 9.04,
+        "end": 11.11
+      },
+      {
+        "text": "Dear Sam, is you.",
+        "start": 11.11,
+        "end": 13.8
+      },
+      {
+        "actor": "Sam",
+        "text": "Dance with me, Bella,",
+        "start": 14,
+        "end": 15.92
+      },
+      {
+        "text": "Round and round.",
+        "start": 15.92,
+        "end": 17.55
+      },
+      {
+        "text": "Come on, everyone,",
+        "start": 17.55,
+        "end": 19.18
+      },
+      {
+        "text": "Let's all dance around.",
+        "start": 19.18,
+        "end": 21.5
       }
     ]
   }]
