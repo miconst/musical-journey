@@ -44,3 +44,9 @@
     }
   }
 }
+
+@media (min-width: 1300px) {
+  .screenplay {
+    flex-direction: column;
+  }
+}

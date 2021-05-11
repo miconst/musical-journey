@@ -36,7 +36,8 @@ export class SceneComponent implements OnInit {
     if (stage) {
       for (let i = stage.speech.length; i-- > 0;) {
         const line = stage.speech[i];
-        if (line.start <= currentTime && currentTime < line.end) {
+        const start = line.start || stage.speech[i - 1].end || 0;
+        if (start <= currentTime && currentTime < line.end) {
           this.speechIndex = i;
         }
       }
@@ -50,9 +51,9 @@ export class SceneComponent implements OnInit {
     if (stage && player) {
       const line = stage.speech[speachIndex];
       if (line) {
-        const time = line.start;
-        if (Math.abs(time - player.getCurrentTime()) > 0.05) {
-          player.setCurrentTime(time);
+        const start = line.start || stage.speech[speachIndex - 1].end || 0;
+        if (Math.abs(start - player.getCurrentTime()) > 0.05) {
+          player.setCurrentTime(start);
         }
       }
     }

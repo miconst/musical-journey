@@ -6,12 +6,14 @@ let apiLoaded = false;
 
 @Component({
   selector: 'app-video-player',
-  template: `<youtube-player #player [width]="450" [height]="360" [videoId]="videoId" (stateChange)="onPlayerStateChange($event)"></youtube-player>`,
+  template: `<youtube-player #player [width]="width" [height]="height" [videoId]="videoId" (stateChange)="onPlayerStateChange($event)"></youtube-player>`,
   styles: []
 })
 export class VideoPlayerComponent implements OnInit, OnDestroy {
   @ViewChild('player') playerRef?: YouTubePlayer;
   @Input() videoId = '';
+  @Input() width?: number;
+  @Input() height?: number;
   @Output() currentTimeChange = new EventEmitter<number>();
 
   playerState: YT.PlayerState = YT.PlayerState.UNSTARTED;

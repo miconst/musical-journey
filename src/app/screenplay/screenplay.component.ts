@@ -2,15 +2,21 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Cue } from '../scene-model';
 
+type Line = Required<Cue> & {
+  index: number;
+};
+
 interface ScreenplayItem {
   actor: string;
-  lines: Cue[];
+  lines: Line[];
 }
 
 function makeScreenplay(speech: ReadonlyArray<Cue>): ScreenplayItem[] {
   const play: ScreenplayItem[] = [];
   let next: ScreenplayItem = { actor: '', lines: [] };
-  for (const line of speech) {
+  let start = 0;
+  for (let i = 0; i < speech.length; i++) {
+    const line = speech[i];
     const actor = line.actor || next.actor;
     if (actor !== next.actor) {
       if (next.lines.length > 0) {
@@ -20,7 +26,12 @@ function makeScreenplay(speech: ReadonlyArray<Cue>): ScreenplayItem[] {
         next.actor = actor;
       }
     }
-    next.lines.push(line);
+    if (line.start) {
+      start = line.start;
+    }
+    start = line.end;
+
+    next.lines.push({ ...line, actor, start, index: i });
   }
   if (next.lines.length > 0) {
     play.push(next);
@@ -84,17 +95,9 @@ export class ScreenplayComponent implements OnInit {
   }
 
   onSubItemClick(actIndex: number, lineIndex: number): void {
-    const act = this.screenplay[actIndex];
-    if (act) {
-      const cue = act.lines[lineIndex];
-      if (cue) {
-        for (let i = this._items.length; i-- > 0;) {
-          if (cue === this._items[i]) {
-            this.selectionChange.emit(i);
-            break;
-          }
-        }
-      }
+    const line = this.screenplay[actIndex]?.lines[lineIndex];
+    if (line) {
+      this.selectionChange.emit(line.index);
     }
   }
 }

@@ -1,0 +1,19 @@
+.scene {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  .scene-stage {
+    padding: 1em;
+  }
+
+  .scene-prompt {
+    padding: 1em;
+  }
+}
+
+@media (min-width: 1300px) {
+  .scene {
+    flex-wrap: nowrap;
+  }
+}
