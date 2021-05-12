@@ -15,6 +15,7 @@ function makeScreenplay(speech: ReadonlyArray<Cue>): ScreenplayItem[] {
   const play: ScreenplayItem[] = [];
   let next: ScreenplayItem = { actor: '', lines: [] };
   let start = 0;
+  let avatar = '';
   for (let i = 0; i < speech.length; i++) {
     const line = speech[i];
     const actor = line.actor || next.actor;
@@ -25,13 +26,19 @@ function makeScreenplay(speech: ReadonlyArray<Cue>): ScreenplayItem[] {
       } else {
         next.actor = actor;
       }
+      avatar = '';
     }
+
     if (line.start) {
       start = line.start;
     }
     start = line.end;
 
-    next.lines.push({ ...line, actor, start, index: i });
+    if (line.avatar) {
+      avatar = line.avatar;
+    }
+
+    next.lines.push({ ...line, actor, avatar, start, index: i });
   }
   if (next.lines.length > 0) {
     play.push(next);
@@ -85,6 +92,8 @@ export class ScreenplayComponent implements OnInit {
 
   @Output() selectionChange = new EventEmitter<number>();
 
+  @Input() avatarDir = 'assets';
+
   constructor() { }
 
   ngOnInit(): void {
@@ -99,5 +108,13 @@ export class ScreenplayComponent implements OnInit {
     if (line) {
       this.selectionChange.emit(line.index);
     }
+  }
+
+  getAvatarUrl(index: number): string {
+    let url = this.screenplay[index].lines[0].avatar;
+    if (url) {
+      url = `url("${this.avatarDir}/${url}")`;
+    }
+    return url;
   }
 }

@@ -35,7 +35,8 @@
     </div>
     <!-- Scene prompt -->
     <div class="scene-prompt">
-      <app-screenplay [items]="stage.speech" [selection]="speechIndex" (selectionChange)="onLineChange($event)">
+      <app-screenplay [items]="stage.speech" [selection]="speechIndex" [avatarDir]="scene.avatarDir"
+        (selectionChange)="onLineChange($event)">
       </app-screenplay>
     </div>
   </ng-container>

@@ -1,4 +1,5 @@
 {
+  "avatarDir": "assets/scenes/avatars",
   "styles": {
     "position": "relative",
     "width": "742px",
@@ -41,6 +42,7 @@
     "videoId": "x7MEfZDKq1A",
     "speech": [{
         "actor": "Daddy",
+        "avatar": "daddy-1.png",
         "text": "Here's a toy",
         "start": 28,
         "end": 29.8
@@ -59,6 +61,7 @@
       },
       {
         "actor": "William",
+        "avatar": "william.png",
         "text": "Thank you, Daddy!",
         "start": 36.2,
         "end": 37.88
@@ -77,6 +80,7 @@
       },
       {
         "actor": "Daddy",
+        "avatar": "daddy-2.png",
         "text": "And what have I got",
         "start": 53.4,
         "end": 55.4
@@ -95,6 +99,7 @@
       },
       {
         "actor": "Rose",
+        "avatar": "rose.png",
         "text": "Thank you, Daddy!",
         "end": 63.7
       },
@@ -115,6 +120,7 @@
     "videoId": "aceRVqyLSbw",
     "speech": [{
         "actor": "Narrator",
+        "avatar": "narrator.png",
         "text": "And now it is",
         "start": 1.2,
         "end": 3
@@ -133,6 +139,7 @@
       },
       {
         "actor": "Ted",
+        "avatar": "ted.png",
         "text": "Hello, I'm Ted.",
         "start": 18.9,
         "end": 20.66
@@ -167,6 +174,7 @@
       },
       {
         "actor": "Sam",
+        "avatar": "sam-1.png",
         "text": "I'm Sam, the toy soldier.",
         "start": 45.6,
         "end": 48.4
@@ -185,6 +193,7 @@
       },
       {
         "actor": "Bella",
+        "avatar": "bella-1.png",
         "text": "And my name's Bella.",
         "start": 57,
         "end": 59
@@ -206,6 +215,7 @@
     "videoId": "PL-HhdJe480",
     "speech": [{
         "actor": "Sam",
+        "avatar": "sam-1.png",
         "text": "Follow me, follow me,",
         "start": 5,
         "end": 6.97
@@ -258,6 +268,7 @@
       },
       {
         "actor": "Narrator",
+        "avatar": "narrator.png",
         "text": "And now the day",
         "start": 34.24,
         "end": 36.09
@@ -279,6 +290,7 @@
     "videoId": "oKecspufzKQ",
     "speech": [{
         "actor": "Narrator",
+        "avatar": "narrator.png",
         "text": "Now William and Rose",
         "start": 6,
         "end": 8.16
@@ -297,6 +309,7 @@
       },
       {
         "actor": "Mummy",
+        "avatar": "mummy.png",
         "text": "Time for tea! Time for tea!",
         "end": 16.46
       },
@@ -314,6 +327,7 @@
       },
       {
         "actor": "Narrator",
+        "avatar": "narrator.png",
         "text": "Oh dear, poor Sam!",
         "start": 30,
         "end": 32.83
@@ -351,6 +365,7 @@
     "videoId": "MEECz0cCyeo",
     "speech": [{
         "actor": "Sam",
+        "avatar": "sam-2.png",
         "text": "Help me! Help me!",
         "start": 5,
         "end": 7.16
@@ -385,6 +400,7 @@
       },
       {
         "actor": "Ted",
+        "avatar": "ted.png",
         "text": "Come on, time to play,",
         "start": 32.9,
         "end": 35.39
@@ -406,6 +422,7 @@
     "videoId": "KuQ4_IF4nhA",
     "speech": [{
         "actor": "Bella",
+        "avatar": "bella-2.png",
         "text": "Is he under the chair?",
         "start": 3.93,
         "end": 5.93
@@ -440,6 +457,7 @@
       },
       {
         "actor": "Narrator",
+        "avatar": "narrator.png",
         "text": "It's sunny now,",
         "start": 25.7,
         "end": 27.55
@@ -477,6 +495,7 @@
     "videoId": "B139e0vckmo",
     "speech": [{
         "actor": "William",
+        "avatar": "william.png",
         "text": "Oh, Blackie, what's this?",
         "start": 7,
         "end": 9.75
@@ -511,6 +530,7 @@
       },
       {
         "actor": "Ted",
+        "avatar": "ted.png",
         "text": "Sam's here! Sam's here!",
         "start": 33.7,
         "end": 36.2
@@ -540,6 +560,7 @@
     "videoId": "TM_4MppZzio",
     "speech": [{
         "actor": "Bella",
+        "avatar": "bella-1.png",
         "text": "I like all the toys",
         "start": 5,
         "end": 6.95
@@ -558,6 +579,7 @@
       },
       {
         "actor": "Sam",
+        "avatar": "sam-1.png",
         "text": "Dance with me, Bella,",
         "start": 14,
         "end": 15.92

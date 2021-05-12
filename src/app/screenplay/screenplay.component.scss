@@ -7,7 +7,7 @@
   flex-wrap: wrap;
 
   div[role="act"] {
-    display: block;
+    display: flex;
     padding: 0.5em;
   }
 
@@ -15,21 +15,41 @@
     display: block;
     cursor: pointer;
     font-weight: 600;
+    min-width: 100px;
 
     &:hover {
       text-decoration: underline dotted;
     }
+  }
 
-    &[aria-selected="true"] {
+  div[role="avatar"] {
+    display: block;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    background-color: transparent;
+    background-size: cover;
+    border-radius: 50%;
+    filter: grayscale(0.8);
+    transition: 1s filter linear;
+  }
+
+  [aria-selected="true"] {
+    >div[role="actor"] {
       color: #4b0f1b;
       text-decoration: underline dotted;
+    }
+
+    >div[role="avatar"] {
+      filter: grayscale(0);
     }
   }
 
   div[role="text"] {
     display: block;
     cursor: pointer;
-    margin-left: 4em;
+    margin-left: 2em;
     padding-bottom: 0.5em;
 
     &:hover {

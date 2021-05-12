@@ -1,5 +1,6 @@
 export interface Cue {
   actor?: string;
+  avatar?: string;
   text: string;
   start?: number;
   end: number;
@@ -15,6 +16,7 @@ export interface Styles {
 }
 
 export interface SceneModel {
+  avatarDir: string;
   styles: Styles;
   header: {
     label: string;
