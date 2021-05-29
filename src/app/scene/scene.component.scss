@@ -4,16 +4,27 @@
   flex-direction: row;
 
   .scene-stage {
-    padding: 1em;
+    padding: 0 1em 1em;
   }
 
   .scene-prompt {
     padding: 1em;
+
+    max-height: 20.5em;
+    overflow-y: auto;
   }
 }
 
 @media (min-width: 1300px) {
   .scene {
     flex-wrap: nowrap;
+
+    .scene-prompt {
+      max-height: 64em;
+    }
+
+    .scene-stage {
+      padding: 1em;
+    }
   }
 }

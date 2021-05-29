@@ -3,7 +3,7 @@
   padding: 6px;
   border-radius: 6px;
   background-color: rgba(0, 0, 0, 0.1);
-  font-size: 22px;
+  font-size: 20px;
   flex-wrap: wrap;
 
   div[role="act"] {
@@ -49,7 +49,7 @@
   div[role="text"] {
     display: block;
     cursor: pointer;
-    margin-left: 2em;
+    // margin-left: 2em;
     padding-bottom: 0.5em;
 
     &:hover {
@@ -67,6 +67,11 @@
 
 @media (min-width: 1300px) {
   .screenplay {
+    font-size: 22px;
     flex-direction: column;
+
+    div[role="text"] {
+      margin-left: 1em;
+    }
   }
 }
