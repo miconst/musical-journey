@@ -1,5 +1,5 @@
 // tslint:disable: variable-name
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnInit, Output, QueryList, ViewChildren } from '@angular/core';
 import { Cue } from '../scene-model';
 
 type Line = Required<Cue> & {
@@ -9,6 +9,14 @@ type Line = Required<Cue> & {
 interface ScreenplayItem {
   actor: string;
   lines: Line[];
+}
+
+function isElementInViewport(view: HTMLElement, elem: HTMLElement): boolean {
+  const viewRc = view.getBoundingClientRect();
+  const elemRc = elem.getBoundingClientRect();
+
+  return viewRc.left <= elemRc.left && elemRc.right <= viewRc.right &&
+    viewRc.top <= elemRc.top && elemRc.bottom <= viewRc.bottom;
 }
 
 function makeScreenplay(speech: ReadonlyArray<Cue>): ScreenplayItem[] {
@@ -52,6 +60,8 @@ function makeScreenplay(speech: ReadonlyArray<Cue>): ScreenplayItem[] {
   styleUrls: ['./screenplay.component.scss']
 })
 export class ScreenplayComponent implements OnInit {
+  @ViewChildren('item') itemList?: QueryList<ElementRef<HTMLElement>>;
+
   screenplay: ReadonlyArray<ScreenplayItem> = [];
   private _items: ReadonlyArray<Cue> = [];
 
@@ -78,6 +88,10 @@ export class ScreenplayComponent implements OnInit {
         if (value < length) {
           this.actIndex = i;
           this.lineIndex = value;
+
+          // Give Angular a chance finish the update then scroll selected item into the view.
+          const item = this.screenplay[i].lines[value];
+          setTimeout(() => this.scrollItemIntoView(item.index), 50);
           break;
         } else {
           value -= length;
@@ -93,6 +107,8 @@ export class ScreenplayComponent implements OnInit {
   @Output() selectionChange = new EventEmitter<number>();
 
   @Input() avatarDir = 'assets';
+
+  @Input() viewport?: HTMLElement;
 
   constructor() { }
 
@@ -116,5 +132,14 @@ export class ScreenplayComponent implements OnInit {
       url = `url("${this.avatarDir}/${url}")`;
     }
     return url;
+  }
+
+  scrollItemIntoView(index: number): void {
+    const elem = this.itemList?.toArray()[index]?.nativeElement;
+    if (elem && typeof elem.scrollIntoView === 'function') {
+      if (!(this.viewport && isElementInViewport(this.viewport, elem))) {
+        elem.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
+      }
+    }
   }
 }

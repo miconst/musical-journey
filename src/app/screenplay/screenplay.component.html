@@ -1,12 +1,14 @@
 <div class="screenplay">
   <div role="act" *ngFor="let act of screenplay; index as i">
     <div [attr.aria-selected]="i === actIndex" (click)="onItemClick(i)">
-      <div role="actor" >{{act.actor}}:</div>
+      <div role="actor">{{act.actor}}:</div>
       <div role="avatar" *ngIf="getAvatarUrl(i) as avatarUrl" [style.background-image]="avatarUrl"></div>
     </div>
     <div>
-      <div role="text" *ngFor="let line of act.lines; index as j"
-        [attr.aria-selected]="i === actIndex && j === lineIndex" (click)="onSubItemClick(i, j)">{{line.text}}</div>
+      <div #item role="text" *ngFor="let line of act.lines; index as j"
+        [attr.aria-selected]="i === actIndex && j === lineIndex" (click)="onSubItemClick(i, j)">
+        <span>{{line.text}}</span>
+      </div>
     </div>
   </div>
 </div>
