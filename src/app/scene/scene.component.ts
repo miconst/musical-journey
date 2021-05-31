@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 
 import { SceneModel } from '../scene-model';
 import { VideoPlayerComponent } from '../video-player/video-player.component';
+import { ActivatedRoute } from '@angular/router';
 
 const ASSETS_URL = 'assets/scenes/';
 
@@ -20,11 +21,13 @@ export class SceneComponent implements OnInit {
 
   @ViewChild('player') playerRef?: VideoPlayerComponent;
 
-  constructor(private _http: HttpClient) { }
+  constructor(private _http: HttpClient, private _route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    const params = this._route.snapshot.queryParams;
+    const game = (params.game as string || '').replace(/[^a-z\-_\.0-9]+/gmi, '') || 'toy';
     this._http
-      .get<SceneModel>(ASSETS_URL + 'toy.json')
+      .get<SceneModel>(ASSETS_URL + game + '.json')
       .toPromise()
       .then(data => this._setScene(data))
       .catch(error => this._onLoadError(error));
