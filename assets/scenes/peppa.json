@@ -1,0 +1,424 @@
+{
+  "avatarDir": "assets/scenes/avatars/peppa",
+  "styles": {
+    "position": "relative",
+    "width": "960px",
+    "height": "618px",
+    "background-color": "transparent",
+    "background-repeat": "no-repeat",
+    "background-size": "100% 100%",
+    "background-image": "url('assets/scenes/vintage-frame-1.png')"
+  },
+  "header": {
+    "label": "Peppa Pig",
+    "styles": {
+      "position": "absolute",
+      "left": "488px",
+      "top": "28px",
+      "font-size": "44px",
+      "font-weight": "600",
+      "transform": "translate(-50%, -50%)",
+      "color": "#de11c2"
+    }
+  },
+  "footer": {
+    "label": "Best Friend",
+    "styles": {
+      "position": "absolute",
+      "right": "16px",
+      "bottom": "16px",
+      "font-size": "20px",
+      "color": "#0a0840"
+    }
+  },
+  "video": {
+    "width": 854,
+    "height": 480,
+    "styles": {
+      "position": "absolute",
+      "left": "56px",
+      "top": "80px"
+    }
+  },
+  "play": [{
+    "videoId": "pDUASheI0aI",
+    "speech": [{
+        "actor": "Peppa",
+        "avatar": "peppa.png",
+        "text": "I'm Peppa Pig.",
+        "start": 2.2,
+        "end": 4.4
+      },
+      {
+        "text": "This is my little brother George.",
+        "end": 6.6
+      },
+      {
+        "text": "This is Mummy Pig.",
+        "start": 7.1,
+        "end": 9.3
+      },
+      {
+        "text": "And this is Daddy Pig.",
+        "start": 9.6,
+        "end": 12
+      },
+      {
+        "text": "Peppa Pig",
+        "start": 13,
+        "end": 15
+      },
+      {
+        "text": "Best Friend",
+        "start": 19.4,
+        "end": 22.4
+      },
+      {
+        "actor": "Narrator",
+        "text": "Peppa is waiting for her best friend, Suzy Sheep.",
+        "start": 26,
+        "end": 30
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa.png",
+        "text": "Hello, Suzy.",
+        "start": 35.1,
+        "end": 36.8
+      },
+      {
+        "actor": "Suzy",
+        "avatar": "suzy.png",
+        "text": "Hello, Peppa.",
+        "start": 37.2,
+        "end": 39
+      },
+      {
+        "actor": "Narrator",
+        "text": "Suzy Sheep has come to play with Peppa.",
+        "start": 39.1,
+        "end": 42.2
+      },
+      {
+        "text": "Peppa loves Suzy.",
+        "start": 44,
+        "end": 46
+      },
+      {
+        "text": "Suzy loves Peppa.",
+        "end": 48
+      },
+      {
+        "text": "They are best friends.",
+        "end": 50
+      },
+      {
+        "actor": "Mummy",
+        "avatar": "mummy.png",
+        "text": "Peppa, why don’t you and Suzy play in your bedroom?",
+        "start": 56.2,
+        "end": 59.8
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa.png",
+        "text": "Yes, Mummy.",
+        "start": 59.8,
+        "end": 61.5
+      },
+      {
+        "actor": "Narrator",
+        "text": "George wants to play, too.",
+        "start": 63,
+        "end": 65.8
+      },
+      {
+        "text": "Peppa and Suzy love playing in Peppa’s bedroom.",
+        "start": 70.6,
+        "end": 74.6
+      },
+      {
+        "text": "So does George.",
+        "start": 77,
+        "end": 79
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa.png",
+        "text": "No, George. This game is just for big girls.",
+        "start": 82,
+        "end": 86.4
+      },
+      {
+        "text": "Go and play with your own toys.",
+        "end": 90
+      },
+      {
+        "actor": "Narrator",
+        "text": "Peppa and Suzy want to play on their own.",
+        "start": 90.4,
+        "end": 93.5
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa.png",
+        "text": "I’m a tiny little fairy princess.",
+        "start": 93.6,
+        "end": 97
+      },
+      {
+        "text": "I’m going to wave my magic wand",
+        "start": 105.4,
+        "end": 109
+      },
+      {
+        "text": "and turn you into a frog.",
+        "end": 113
+      },
+      {
+        "actor": "Narrator",
+        "text": "George doesn’t like playing on his own.",
+        "start": 114,
+        "end": 118
+      },
+      {
+        "text": "George wants to play, too.",
+        "start": 121,
+        "end": 123
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa.png",
+        "text": "No, George. I’m playing with Suzy.",
+        "start": 123.1,
+        "end": 127.4
+      },
+      {
+        "text": "You have to play somewhere else.",
+        "end": 130.4
+      },
+      {
+        "actor": "Narrator",
+        "text": "George wants to play with Peppa. He feels a bit lonely.",
+        "start": 131,
+        "end": 134.7
+      },
+      {
+        "actor": "Mummy",
+        "avatar": "mummy.png",
+        "text": "George, I need some help.",
+        "end": 136.6
+      },
+      {
+        "text": "I’m making chocolate chip cookies.",
+        "end": 140
+      },
+      {
+        "text": "Someone needs to lick out the bowl.",
+        "start": 143,
+        "end": 146
+      },
+      {
+        "actor": "Narrator",
+        "text": "George likes helping Mummy make cookies,",
+        "start": 148,
+        "end": 152
+      },
+      {
+        "text": "but he likes playing with Peppa more.",
+        "end": 156
+      },
+      {
+        "actor": "Suzy",
+        "avatar": "suzy-nurse.png",
+        "text": "I want to be a nurse.",
+        "start": 158.8,
+        "end": 161
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa-doctor.png",
+        "text": "I want to be a doctor.",
+        "start": 161.1,
+        "end": 163.5
+      },
+      {
+        "actor": "Suzy",
+        "avatar": "suzy-nurse.png",
+        "text": "But who’s going to be the sick person?",
+        "end": 166.5
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa-doctor.png",
+        "text": "George!",
+        "start": 169,
+        "end": 171
+      },
+      {
+        "actor": "Narrator",
+        "text": "Peppa and Suzy love playing doctors and nurses.",
+        "start": 174.6,
+        "end": 178.5
+      },
+      {
+        "text": "So does George.",
+        "end": 181
+      },
+      {
+        "text": "Peppa listens to George’s chest.",
+        "end": 184
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa-doctor.png",
+        "text": "Now, George. Take a big breath in, then cough.",
+        "end": 189
+      },
+      {
+        "text": "I think your heart’s a bit loose.",
+        "start": 191,
+        "end": 195
+      },
+      {
+        "text": "I’ll put a plaster on it.",
+        "end": 197
+      },
+      {
+        "actor": "Suzy",
+        "avatar": "suzy-nurse.png",
+        "text": "Open wide, please.",
+        "start": 198.6,
+        "end": 201
+      },
+      {
+        "actor": "Narrator",
+        "text": "Suzy takes George’s temperature.",
+        "end": 203.6
+      },
+      {
+        "actor": "Suzy",
+        "avatar": "suzy-nurse.png",
+        "text": "Oh, dear. You’re very very hot.",
+        "end": 207.8
+      },
+      {
+        "text": "I think you have to stay in bed for three years.",
+        "end": 212
+      },
+      {
+        "actor": "Narrator",
+        "text": "Daddy Pig has come to find George.",
+        "start": 213.9,
+        "end": 216.3
+      },
+      {
+        "actor": "Daddy",
+        "avatar": "daddy.png",
+        "text": "Oh, no. What’s wrong with George?",
+        "end": 219.6
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa-doctor.png",
+        "text": "Don’t worry, Daddy. It’s only a game.",
+        "end": 221.8
+      },
+      {
+        "text": "George is our patient.",
+        "end": 224
+      },
+      {
+        "actor": "Daddy",
+        "avatar": "daddy.png",
+        "text": "Oh, I see.",
+        "end": 226
+      },
+      {
+        "text": "Can the patient have a visitor?",
+        "end": 228.4
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa-doctor.png",
+        "text": "Just for a little while.",
+        "end": 230.2
+      },
+      {
+        "text": "He might get tired.",
+        "end": 233
+      },
+      {
+        "actor": "Peppa and Suzy",
+        "text": "Cookies!",
+        "end": 235
+      },
+      {
+        "actor": "Mummy",
+        "avatar": "mummy.png",
+        "text": "Yes, they’re for George.",
+        "end": 237
+      },
+      {
+        "text": "They’re his medicine to make him feel better.",
+        "end": 240
+      },
+      {
+        "actor": "Daddy",
+        "avatar": "daddy.png",
+        "text": "Um, excuse me, doctor.",
+        "start": 247,
+        "end": 249.4
+      },
+      {
+        "text": "Can you help me?",
+        "end": 250.6
+      },
+      {
+        "text": "I have a sore tummy.",
+        "end": 253
+      },
+      {
+        "text": "That tickles.",
+        "end": 255
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa-doctor.png",
+        "text": "I can hear it rumbling.",
+        "start": 259,
+        "end": 261
+      },
+      {
+        "text": "I think you’re hungry, Daddy.",
+        "end": 264
+      },
+      {
+        "actor": "Daddy",
+        "avatar": "daddy.png",
+        "text": "Well, I think I need lots of cookies to make me better.",
+        "start": 264.4,
+        "end": 269
+      },
+      {
+        "actor": "Mummy",
+        "avatar": "mummy.png",
+        "text": "And me.",
+        "start": 270,
+        "end": 271.4
+      },
+      {
+        "actor": "Peppa",
+        "avatar": "peppa.png",
+        "text": "And me.",
+        "end": 273
+      },
+      {
+        "actor": "Suzy",
+        "avatar": "suzy-nurse.png",
+        "text": "And me.",
+        "end": 275
+      }
+    ]
+  }]
+}
