@@ -26,7 +26,7 @@
           <button mat-icon-button aria-label="previous stage" [disabled]="!hasPrevStage()" (click)="onPrevStage()">
             <mat-icon>navigate_before</mat-icon>
           </button>
-          <span>{{scene.footer.label + ': ' + (stageIndex + 1)}}</span>
+          <span>{{footer}}</span>
           <button mat-icon-button aria-label="next stage" [disabled]="!hasNextStage()" (click)="onNextStage()">
             <mat-icon>navigate_next</mat-icon>
           </button>

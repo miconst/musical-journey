@@ -2,7 +2,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { SceneModel } from '../scene-model';
+import { SceneModel, Stage } from '../scene-model';
 import { VideoPlayerComponent } from '../video-player/video-player.component';
 import { ActivatedRoute } from '@angular/router';
 
@@ -20,6 +20,22 @@ export class SceneComponent implements OnInit {
   errorMessage?: string;
 
   @ViewChild('player') playerRef?: VideoPlayerComponent;
+
+  get stage(): Stage | undefined  {
+    return this.scene?.play[this.stageIndex];
+  }
+
+  get footer(): string {
+    let label = this.stage?.label;
+    if (label) {
+      return label;
+    }
+    label = this.scene?.footer.label;
+    if (label) {
+      return `${label} : ${this.stageIndex + 1}`;
+    }
+    return '';
+  }
 
   constructor(private _http: HttpClient, private _route: ActivatedRoute) { }
 

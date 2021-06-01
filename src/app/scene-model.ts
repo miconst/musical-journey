@@ -7,6 +7,7 @@ export interface Cue {
 }
 
 export interface Stage {
+  label?: string;
   videoId: string;
   speech: Cue[];
 }
