@@ -41,12 +41,7 @@ export class VideoPlayerComponent implements OnInit, OnDestroy {
     this.playerState = event.data;
 
     if (this.playerState === YT.PlayerState.PLAYING) {
-      const player = event.target;
-      this.autoplay.play(() => {
-        const time = player.getCurrentTime();
-        this.currentTimeChange.emit(time);
-        return this.playerState === YT.PlayerState.PLAYING;
-      });
+      this.watchCurrentTime();
     } else {
       this.autoplay.stop();
     }
@@ -56,11 +51,26 @@ export class VideoPlayerComponent implements OnInit, OnDestroy {
     const player = this.playerRef;
     if (player) {
       player.seekTo(value, true);
+      // Restart our watcher
+      this.watchCurrentTime();
     }
   }
 
   getCurrentTime(): number {
     const player = this.playerRef;
     return player ? player.getCurrentTime() : 0;
+  }
+
+  watchCurrentTime(): void {
+    this.autoplay.stop();
+
+    const player = this.playerRef;
+    if (player) {
+      this.autoplay.play(() => {
+        const time = player.getCurrentTime();
+        this.currentTimeChange.emit(time);
+        return this.playerState === YT.PlayerState.PLAYING;
+      });
+    }
   }
 }
