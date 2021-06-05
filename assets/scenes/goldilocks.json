@@ -1,0 +1,675 @@
+{
+  "avatarDir": "assets/scenes/avatars/goldilocks",
+  "styles": {
+    "position": "relative",
+    "width": "742px",
+    "height": "618px",
+    "background-color": "transparent",
+    "background-image": "url('assets/scenes/vintage-frame-1.png')"
+  },
+  "header": {
+    "label": "Goldilocks and the Three Bears",
+    "styles": {
+      "position": "absolute",
+      "left": "372px",
+      "top": "30px",
+      "font-size": "28px",
+      "font-weight": "600",
+      "transform": "translate(-50%, -50%)",
+      "color": "#dc9900",
+      "line-height": "1em",
+      "text-align": "center"
+    }
+  },
+  "footer": {
+    "label": "Stage",
+    "styles": {
+      "position": "absolute",
+      "right": "16px",
+      "bottom": "16px",
+      "font-size": "20px",
+      "color": "#0a0840"
+    }
+  },
+  "video": {
+    "width": 600,
+    "height": 480,
+    "styles": {
+      "position": "absolute",
+      "left": "70px",
+      "top": "80px"
+    }
+  },
+  "play": [{
+    "videoId": "sXQJciYkZqk",
+    "label": "Stage 1",
+    "speech": [{
+      "actor": "Narrator",
+      "text": "Goldilocks, a little girl,",
+      "start": 22.5,
+      "end": 24.6
+    }, {
+      "text": "Has big blue eyes",
+      "end": 26.6
+    }, {
+      "text": "And golden curls.",
+      "end": 28.6
+    }, {
+      "text": "Her mother tells her...",
+      "end": 30.3
+    }, {
+      "actor": "Mother",
+      "text": "Now, be good!",
+      "end": 32
+    }, {
+      "text": "Don't go walking in the wood!",
+      "end": 35
+    }, {
+      "actor": "Narrator",
+      "text": "She says...",
+      "end": 36
+    }, {
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "Oh, Mummy, please don't worry!",
+      "end": 39
+    }, {
+      "actor": "Narrator",
+      "text": "But Goldilocks is in a hurry.",
+      "end": 42
+    }, {
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "The wood is nice,",
+      "start": 51.5,
+      "end": 53.2
+    }, {
+      "text": "The wood is cool,",
+      "end": 54.4
+    }, {
+      "text": "I can walk there",
+      "end": 55.8
+    }, {
+      "text": "On my way to school.",
+      "end": 57.6
+    }]
+  }, {
+    "videoId": "ymdBIdY9jUA",
+    "label": "Stage 1 - Song",
+    "speech": [{
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Goldie, Goldie, Goldilocks",
+      "start": 6.8,
+      "end": 9.94
+    }, {
+      "text": "Is as pretty as can be.",
+      "end": 13.3
+    }, {
+      "text": "Her mother tells her every day:",
+      "end": 16.7
+    }, {
+      "text": "\"Now, listen to me!\"",
+      "end": 19.8
+    }, {
+      "actor": "Chorus",
+      "avatar": "singer.png",
+      "text": "Goldie, Goldie, Goldilocks",
+      "start": 22.2,
+      "end": 25.4
+    }, {
+      "text": "With long golden curls",
+      "end": 28.7
+    }, {
+      "text": "Through the wood she takes a walk -",
+      "end": 32.7
+    }, {
+      "text": "The naughty girl!",
+      "end": 36.0
+    }, {
+      "text": "Goldie, Goldie, Goldilocks",
+      "end": 39
+    }, {
+      "text": "With long golden curls",
+      "end": 42.5
+    }, {
+      "text": "Through the wood she takes a walk -",
+      "end": 45.5
+    }, {
+      "text": "The naughty, the naughty girl!",
+      "end": 50.8
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Goldie, Goldie, Goldilocks",
+      "start": 61.5,
+      "end": 64.9
+    }, {
+      "text": "Is on her way to school.",
+      "end": 68.2
+    }, {
+      "text": "She says \"The woods look lovely\"",
+      "end": 71.6
+    }, {
+      "text": "And she breaks her mother's rule!",
+      "end": 74.6
+    }, {
+      "text": "Goldie, Goldie, Goldilocks",
+      "actor": "Chorus",
+      "avatar": "singer.png",
+      "start": 77.1,
+      "end": 80.4
+    }, {
+      "text": "With long golden curls",
+      "end": 83.6
+    }, {
+      "text": "Through the wood she takes a walk -",
+      "end": 86.6
+    }, {
+      "text": "The naughty, the naughty girl!",
+      "end": 92.2
+    }]
+  }, {
+    "label": "Stage 2",
+    "videoId": "k5Am_9k9TcU",
+    "speech": [{
+      "actor": "Narrator",
+      "text": "Now in the wood there live three bears!",
+      "start": 2,
+      "end": 5.45
+    }, {
+      "text": "Mummy, Daddy and Baby.",
+      "end": 8.7
+    }, {
+      "actor": "Daddy",
+      "avatar": "daddy.png",
+      "text": "Let's take a walk.",
+      "start": 9.5,
+      "end": 11.6
+    }, {
+      "actor": "Narrator",
+      "text": "Daddy says...",
+      "end": 13.3
+    }, {
+      "text": "And Mummy says...",
+      "end": 14.9
+    }, {
+      "actor": "Mummy",
+      "avatar": "mummy.png",
+      "text": "Well, maybe:",
+      "end": 17.3
+    }, {
+      "text": "I've got some porridge in this pot.",
+      "start": 19.7,
+      "end": 23.3
+    }, {
+      "text": "It's very nice -",
+      "end": 25.7
+    }, {
+      "text": "But it's very hot!",
+      "end": 28
+    }, {
+      "text": "We can eat it when we all return.",
+      "end": 32.1
+    }, {
+      "text": "Let's go outside and get some sun!",
+      "end": 36
+    }]
+  }, {
+    "label": "Stage 3",
+    "videoId": "-gz6qfytdMM",
+    "speech": [{
+      "actor": "Narrator",
+      "text": "Now, to the house comes Goldilocks",
+      "start": 6,
+      "end": 9
+    }, {
+      "text": "And on the door she gives three knocks!",
+      "end": 12.5
+    }, {
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "No one home.",
+      "start": 15.7,
+      "end": 17.4
+    }, {
+      "actor": "Narrator",
+      "text": "She says...",
+      "end": 18.3
+    }, {
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "What luck - I'll go inside and have a look!",
+      "end": 22.2
+    }, {
+      "text": "Yum!",
+      "start": 23.7,
+      "end": 24.6
+    }, {
+      "actor": "Narrator",
+      "text": "She says...",
+      "end": 26.3
+    }, {
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "I want some porridge",
+      "start": 26.4,
+      "end": 28.5
+    }, {
+      "text": "Yuk, not this -",
+      "start": 30.8,
+      "end": 32.6
+    }, {
+      "text": "And this one's horrid!",
+      "end": 34.8
+    }, {
+      "text": "But this one here is very good -",
+      "start": 40.8,
+      "end": 43.7
+    }, {
+      "text": "And porridge is my favourite food!",
+      "end": 47.4
+    }]
+  }, {
+    "label": "Stage 3 - Song",
+    "videoId": "-R5bBOkGG0s",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 1,
+      "end": 6.6
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Please put my porridge in a pretty little pot.",
+      "end": 10
+    }, {
+      "text": "I like it for my breakfast and I like it nice and hot.",
+      "end": 14
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 25.1
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Porridge oats, porridge oats as tasty as can be.",
+      "end": 28.6
+    }, {
+      "text": "Porridge oats, porridge oats the only food for me!",
+      "end": 32.6
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 44
+    }]
+  }, {
+    "label": "Stage 4",
+    "videoId": "lNt71WSuqlM",
+    "speech": [{
+      "actor": "Narrator",
+      "text": "Then she sits upon a chair.",
+      "start": 0.5,
+      "end": 3.4
+    }, {
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "Oh no! Not this one - that one there!",
+      "start": 5.7,
+      "end": 9.6
+    }, {
+      "text": "It's nice and small - not big at all!",
+      "start": 10.5,
+      "end": 14
+    }, {
+      "actor": "Narrator",
+      "text": "But then, poor Goldie has a fall.",
+      "start": 15,
+      "end": 18.6
+    }]
+  }, {
+    "label": "Stage 5",
+    "videoId": "ldVhMq2cI4M",
+    "speech": [{
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "Never mind the chair!",
+      "start": 2,
+      "end": 4
+    }, {
+      "actor": "Narrator",
+      "text": "She says...",
+      "end": 5.4
+    }, {
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "I need a bed -",
+      "end": 7.2
+    }, {
+      "text": "I’ll go upstairs!",
+      "end": 9
+    }, {
+      "actor": "Narrator",
+      "text": "The bed she finds is nice and small.",
+      "start": 15,
+      "end": 18.4
+    }, {
+      "text": "She goes to sleep in no time at all.",
+      "end": 21.8
+    }]
+  }, {
+    "label": "Stage 5 - Song",
+    "videoId": "k5UMjLbm6fs",
+    "speech": [{
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Go to sleep, Goldie,",
+      "start": 1,
+      "end": 3.5
+    }, {
+      "text": "Have a sweet dream,",
+      "end": 5.8
+    }, {
+      "text": "Think of your porridge",
+      "end": 8.1
+    }, {
+      "text": "With lots of cream!",
+      "end": 10.2
+    }, {
+      "text": "Sleep on the soft bed,",
+      "end": 12.7
+    }, {
+      "text": "Sleep for a while,",
+      "end": 14.9
+    }, {
+      "text": "Stay warm in bed",
+      "end": 16.9
+    }, {
+      "text": "And wake with a smile!",
+      "end": 20.2
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 24.7
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Go to sleep, Goldie,",
+      "end": 26.3
+    }, {
+      "text": "Have a sweet dream,",
+      "end": 27.92
+    }, {
+      "text": "Think of your porridge",
+      "end": 29.84
+    }, {
+      "text": "With lots of cream!",
+      "end": 31.3
+    }, {
+      "text": "Sleep on the soft bed,",
+      "end": 33.2
+    }, {
+      "text": "Sleep for a while,",
+      "end": 34.8
+    }, {
+      "text": "Stay warm in bed",
+      "end": 36.25
+    }, {
+      "text": "And wake with a smile!",
+      "end": 38.8
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 46
+    }]
+  }, {
+    "label": "Stage 6",
+    "videoId": "iOtMaGpHK5k",
+    "speech": [{
+      "actor": "Mummy",
+      "avatar": "mummy.png",
+      "text": "Now, come on, everyone!",
+      "start": 1.6,
+      "end": 4.3
+    }, {
+      "actor": "Narrator",
+      "text": "Says Mummy.",
+      "end": 5.7
+    }, {
+      "actor": "Mummy",
+      "avatar": "mummy.png",
+      "text": "Let's eat the porridge!",
+      "end": 8
+    }, {
+      "text": "Yummy, yummy!",
+      "end": 10.3
+    }, {
+      "actor": "Baby",
+      "avatar": "baby.png",
+      "text": "But where is mine?",
+      "start": 11.6,
+      "end": 14
+    }, {
+      "actor": "Narrator",
+      "text": "Says Baby Bear.",
+      "end": 15.9
+    }, {
+      "actor": "Baby",
+      "avatar": "baby.png",
+      "text": "It's not here, is it there?",
+      "end": 19.3
+    }, {
+      "actor": "Daddy",
+      "avatar": "daddy.png",
+      "text": "Oh dear! Oh dear!",
+      "start": 21.7,
+      "end": 25
+    }, {
+      "actor": "Narrator",
+      "text": "Says Daddy Bear -",
+      "end": 26.7
+    }, {
+      "text": "And then he sees poor Baby's chair.",
+      "end": 29.5
+    }, {
+      "actor": "Baby",
+      "avatar": "baby.png",
+      "text": "Mummy, Mummy, it's not fair!",
+      "end": 32.6
+    }, {
+      "text": "Now I haven't got a chair!",
+      "end": 35.6
+    }]
+  }, {
+    "label": "Stage 7",
+    "videoId": "Ep6atrEYVrg",
+    "speech": [{
+      "actor": "Daddy",
+      "avatar": "daddy.png",
+      "text": "Let's check the beds!",
+      "start": 0.6,
+      "end": 3.1
+    }, {
+      "actor": "Narrator",
+      "text": "Says Daddy Bear",
+      "end": 5
+    }, {
+      "text": "And then they all go up the stairs!",
+      "end": 8
+    }]
+  }, {
+    "label": "Stage 7 - Song",
+    "videoId": "Il6WXEKiaXI",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 0.3,
+      "end": 14.7
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Poor Baby, poor Baby, poor Baby Bear!",
+      "end": 18
+    }, {
+      "text": "No porridge for him. It just isn't fair!",
+      "end": 22.1
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 29.3
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Poor Baby, poor Baby, poor Baby Bear!",
+      "end": 32.5
+    }, {
+      "text": "Now he hasn't even got a chair!",
+      "end": 36.7
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 43.8
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Poor Baby, poor Baby, poor Baby Bear!",
+      "end": 47.1
+    }, {
+      "text": "He doesn't know Goldie is sleeping upstairs!",
+      "end": 51.3
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 67
+    }]
+  }, {
+    "label": "Stage 8",
+    "videoId": "bm7lQ4YJTWg",
+    "speech": [{
+      "actor": "Baby",
+      "avatar": "baby.png",
+      "text": "Who's this? Who's this in my nice bed?",
+      "start": 1.3,
+      "end": 6
+    }, {
+      "actor": "Narrator",
+      "text": "Then Goldie lifts her sleepy head!",
+      "start": 7,
+      "end": 10
+    }, {
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "Oh no!",
+      "start": 11.4,
+      "end": 13.6
+    }, {
+      "actor": "Narrator",
+      "text": "She says...",
+      "end": 15
+    }, {
+      "actor": "Goldilocks",
+      "avatar": "goldilocks.png",
+      "text": "I'm very sorry!",
+      "end": 16.9
+    }, {
+      "text": "But please don't cry!",
+      "end": 18.8
+    }, {
+      "text": "Please don't worry!",
+      "end": 20.7
+    }, {
+      "text": "Come to my house, come with me!",
+      "start": 24.4,
+      "end": 27.2
+    }, {
+      "text": "We can eat some cakes and drink some tea!",
+      "end": 30.8
+    }, {
+      "actor": "Narrator",
+      "text": "So Goldilocks and her three new friends",
+      "start": 34.2,
+      "end": 37.8
+    }, {
+      "text": "Are very happy in the end!",
+      "end": 41.2
+    }]
+  }, {
+    "label": "Stage 8 - Song",
+    "videoId": "4oQs9FkLSqQ",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 4,
+      "end": 15.4
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "And so our little story",
+      "end": 18.9
+    }, {
+      "text": "Reminds us every day",
+      "end": 22.8
+    }, {
+      "text": "To always say we're sorry",
+      "end": 26.5
+    }, {
+      "text": "When we make mistakes.",
+      "end": 30
+    }, {
+      "actor": "Chorus",
+      "avatar": "singer.png",
+      "text": "We all need friends,",
+      "start": 32.3,
+      "end": 36
+    }, {
+      "text": "We need to care.",
+      "end": 39.5
+    }, {
+      "text": "We all need friends,",
+      "end": 41.9
+    }, {
+      "text": "We need to share!",
+      "end": 45
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 46.8,
+      "end": 61.1
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Now everybody's happy!",
+      "start": 62.8,
+      "end": 66.1
+    }, {
+      "text": "Let's sing a happy tune.",
+      "end": 69.7
+    }, {
+      "text": "Goodbye, everybody",
+      "end": 73.5
+    }, {
+      "text": "We hope we see you soon!",
+      "end": 77.4
+    }, {
+      "actor": "Chorus",
+      "avatar": "singer.png",
+      "text": "We all need friends,",
+      "start": 79.6,
+      "end": 83.3
+    }, {
+      "text": "We need to care.",
+      "end": 87
+    }, {
+      "text": "We all need friends,",
+      "end": 88.9
+    }, {
+      "text": "We need to share!",
+      "end": 92.8
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 93.8,
+      "end": 104.8
+    }]
+  }]
+}
