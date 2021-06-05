@@ -271,6 +271,39 @@
       "end": 47.4
     }]
   }, {
+    "label": "Stage 3 - Song",
+    "videoId": "-R5bBOkGG0s",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 1,
+      "end": 6.6
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Please put my porridge in a pretty little pot.",
+      "end": 10
+    }, {
+      "text": "I like it for my breakfast and I like it nice and hot.",
+      "end": 14
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 25.1
+    }, {
+      "actor": "Verse",
+      "avatar": "singer.png",
+      "text": "Porridge oats, porridge oats as tasty as can be.",
+      "end": 28.6
+    }, {
+      "text": "Porridge oats, porridge oats the only food for me!",
+      "end": 32.6
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 44
+    }]
+  }, {
     "label": "Stage 4",
     "videoId": "lNt71WSuqlM",
     "speech": [{
@@ -412,6 +445,7 @@
       "end": 10.3
     }, {
       "actor": "Baby",
+      "avatar": "baby.png",
       "text": "But where is mine?",
       "start": 11.6,
       "end": 14
@@ -420,6 +454,8 @@
       "text": "Says Baby Bear.",
       "end": 15.9
     }, {
+      "actor": "Baby",
+      "avatar": "baby.png",
       "text": "It's not here, is it there?",
       "end": 19.3
     }, {
@@ -437,6 +473,7 @@
       "end": 29.5
     }, {
       "actor": "Baby",
+      "avatar": "baby.png",
       "text": "Mummy, Mummy, it's not fair!",
       "end": 32.6
     }, {
@@ -510,6 +547,7 @@
     "videoId": "bm7lQ4YJTWg",
     "speech": [{
       "actor": "Baby",
+      "avatar": "baby.png",
       "text": "Who's this? Who's this in my nice bed?",
       "start": 1.3,
       "end": 6
