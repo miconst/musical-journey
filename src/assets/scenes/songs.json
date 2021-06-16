@@ -1,5 +1,8 @@
 {
-  "avatarDir": "assets/scenes/avatars",
+  "avatars": {
+    "location": "assets/scenes/avatars",
+    "files": {}
+  },
   "styles": {
     "position": "relative",
     "width": "742px",

@@ -16,8 +16,13 @@ export interface Styles {
   [key: string]: any;
 }
 
+export interface Avatars {
+  location: string;
+  files: {[key: string]: string};
+}
+
 export interface SceneModel {
-  avatarDir: string;
+  avatars: Avatars;
   styles: Styles;
   header: {
     label: string;

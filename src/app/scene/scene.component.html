@@ -35,7 +35,7 @@
     </div>
     <!-- Scene prompt -->
     <div class="scene-prompt" #prompt>
-      <app-screenplay [items]="stage.speech" [selection]="speechIndex" [avatarDir]="scene.avatarDir" [viewport]="prompt"
+      <app-screenplay [items]="stage.speech" [selection]="speechIndex" [avatars]="scene.avatars" [viewport]="prompt"
         (selectionChange)="onLineChange($event)">
       </app-screenplay>
     </div>

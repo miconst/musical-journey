@@ -1,6 +1,6 @@
 // tslint:disable: variable-name
 import { Component, ElementRef, EventEmitter, Input, OnInit, Output, QueryList, ViewChildren } from '@angular/core';
-import { Cue } from '../scene-model';
+import { Avatars, Cue } from '../scene-model';
 
 type Line = Required<Cue> & {
   index: number;
@@ -106,7 +106,7 @@ export class ScreenplayComponent implements OnInit {
 
   @Output() selectionChange = new EventEmitter<number>();
 
-  @Input() avatarDir = 'assets';
+  @Input() avatars: Avatars = { location: 'assets', files: {} };
 
   @Input() viewport?: HTMLElement;
 
@@ -126,10 +126,14 @@ export class ScreenplayComponent implements OnInit {
     }
   }
 
-  getAvatarUrl(index: number): string {
-    let url = this.screenplay[index].lines[0].avatar;
-    if (url) {
-      url = `url("${this.avatarDir}/${url}")`;
+  getAvatarUrl(index: number): string | undefined {
+    let url;
+    if (this.avatars) {
+      const line = this.screenplay[index].lines[0];
+      url = line.avatar || this.avatars.files[line.actor];
+      if (url) {
+        url = `url("${this.avatars.location}/${url}")`;
+      }
     }
     return url;
   }
