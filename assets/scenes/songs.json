@@ -1,0 +1,769 @@
+{
+  "avatars": {
+    "location": "assets/scenes/avatars",
+    "files": {}
+  },
+  "styles": {
+    "position": "relative",
+    "width": "742px",
+    "height": "618px",
+    "background-color": "transparent",
+    "background-image": "url('assets/scenes/vintage-frame-1.png')"
+  },
+  "header": {
+    "label": "Sing along!",
+    "styles": {
+      "position": "absolute",
+      "left": "372px",
+      "top": "28px",
+      "font-size": "44px",
+      "font-weight": "600",
+      "transform": "translate(-50%, -50%)",
+      "color": "#9c27b0",
+      "line-height": "1em",
+      "text-align": "center"
+    }
+  },
+  "footer": {
+    "label": "Stage",
+    "styles": {
+      "position": "absolute",
+      "right": "16px",
+      "bottom": "16px",
+      "font-size": "20px",
+      "color": "#0a0840"
+    }
+  },
+  "video": {
+    "width": 600,
+    "height": 480,
+    "styles": {
+      "position": "absolute",
+      "left": "70px",
+      "top": "80px"
+    }
+  },
+  "play": [{
+    "videoId": "3vuS3ue6q8c",
+    "label": "Hello, everybody!",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 4,
+      "end": 12
+    }, {
+      "actor": "Verse",
+      "avatar": "shine.png",
+      "text": "Hello, everybody!",
+      "end": 14
+    }, {
+      "text": "Back together again!",
+      "end": 17.5
+    }, {
+      "text": "We're happy you can join us!",
+      "start": 19.4,
+      "end": 21.7
+    }, {
+      "text": "We hope you feel the same!",
+      "end": 25
+    }, {
+      "actor": "Chorus",
+      "avatar": "shine.png",
+      "text": "Remember Larry and Lulu?",
+      "start": 27.1,
+      "end": 31
+    }, {
+      "text": "Maya and Paco too?",
+      "end": 34.7
+    }, {
+      "text": "And do you remember Chuckles?",
+      "end": 38.9
+    }, {
+      "text": "They're all back here with you!",
+      "end": 43
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 46.4
+    }, {
+      "actor": "Verse",
+      "avatar": "shine.png",
+      "text": "Hello, everybody!",
+      "end": 48.8
+    }, {
+      "text": "Back together again!",
+      "end": 52.3
+    }, {
+      "text": "We're happy you can join us!",
+      "start": 54,
+      "end": 56.2
+    }, {
+      "text": "We hope you feel the same!",
+      "end": 60
+    }, {
+      "actor": "Chorus",
+      "avatar": "shine.png",
+      "text": "Remember Larry and Lulu?",
+      "start": 62,
+      "end": 65.5
+    }, {
+      "text": "Maya and Paco too?",
+      "end": 69.6
+    }, {
+      "text": "And do you remember Chuckles?",
+      "end": 73.4
+    }, {
+      "text": "They're all back here with you!",
+      "end": 77.8
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 86
+    }]
+  }, {
+    "videoId": "OxiHnp-TLJA",
+    "label": "One Big Happy Family!",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 1.8,
+      "end": 5.3
+    }, {
+      "actor": "Verse",
+      "avatar": "larry.png",
+      "text": "I've got a lot of people",
+      "end": 7.4
+    }, {
+      "text": "In my family -",
+      "end": 9.3
+    }, {
+      "text": "There's Mum and Dad and Lulu,",
+      "end": 11.4
+    }, {
+      "text": "There's Betsy and there's me!",
+      "end": 13.8
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 24.5
+    }, {
+      "actor": "Chorus",
+      "avatar": "larry.png",
+      "text": "One big happy family,",
+      "end": 27.6
+    }, {
+      "text": "One big happy crew,",
+      "end": 31.8
+    }, {
+      "text": "One big happy family,",
+      "end": 35.5
+    }, {
+      "text": "We stick together like glue!",
+      "end": 40.3
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 57.3
+    }, {
+      "actor": "Verse",
+      "avatar": "larry.png",
+      "text": "There's Grandma and there's Grandpa",
+      "end": 59.4
+    }, {
+      "text": "And Uncle Harry too!",
+      "end": 61.3
+    }, {
+      "text": "Aunt Pam and Cousin Robbie -",
+      "end": 63.4
+    }, {
+      "text": "We stick together like glue!",
+      "end": 66.2
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 76.6
+    }, {
+      "actor": "Chorus",
+      "avatar": "larry.png",
+      "text": "One big happy family,",
+      "end": 79.7
+    }, {
+      "text": "One big happy crew,",
+      "end": 83.3
+    }, {
+      "text": "One big happy family,",
+      "end": 87.5
+    }, {
+      "text": "We stick together like glue!",
+      "end": 91.4
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 111.6
+    }]
+  }, {
+    "label": "My favourite kind of people!",
+    "videoId": "3zfc6dTic7c",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 1,
+      "end": 8.4
+    }, {
+      "actor": "Verse",
+      "avatar": "mum.png",
+      "text": "Postman Pete, what's in your bag?",
+      "end": 11.4
+    }, {
+      "text": "A parcel or a letter?",
+      "end": 14.7
+    }, {
+      "text": "Postman Pete, what's in your bag?",
+      "end": 18
+    }, {
+      "text": "A card - or something better?",
+      "end": 22.1
+    }, {
+      "actor": "Chorus",
+      "avatar": "mum.png",
+      "text": "Oh, my postman's very special,",
+      "end": 26
+    }, {
+      "text": "He whistles and he sings!",
+      "end": 29
+    }, {
+      "text": "I wait for him each morning,",
+      "end": 32.4
+    }, {
+      "text": "I love the things he brings!",
+      "end": 35.8
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 50
+    }, {
+      "actor": "Verse",
+      "avatar": "mum.png",
+      "text": "Postman Pete, what's in your bag?",
+      "end": 53
+    }, {
+      "text": "A postcard or a prize?",
+      "end": 56.5
+    }, {
+      "text": "Postman Pete, what's in your bag?",
+      "end": 59.6
+    }, {
+      "text": "Give me a surprise!",
+      "end": 63.5
+    }, {
+      "actor": "Chorus",
+      "avatar": "mum.png",
+      "text": "Oh, my postman's very special,",
+      "end": 67.5
+    }, {
+      "text": "He whistles and he sings!",
+      "end": 70.6
+    }, {
+      "text": "I wait for him each morning,",
+      "end": 73.9
+    }, {
+      "text": "I love the things he brings!",
+      "end": 77.4
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 90
+    }]
+  }, {
+    "label": "All over the world!",
+    "videoId": "-qjNOldfUUc",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 1,
+      "end": 5.9
+    }, {
+      "actor": "Verse",
+      "avatar": "singer-4.png",
+      "text": "Fish and chips is English,",
+      "end": 8
+    }, {
+      "text": "Sushi's Japanese.",
+      "end": 10.9
+    }, {
+      "text": "Pizza is Italian,",
+      "end": 12.9
+    }, {
+      "text": "So is mozzarella cheese!",
+      "end": 16
+    }, {
+      "actor": "Chorus",
+      "avatar": "singer-4.png",
+      "text": "All around the world",
+      "start": 18.7,
+      "end": 21
+    }, {
+      "text": "People love to eat.",
+      "end": 23.6
+    }, {
+      "text": "All around the world",
+      "end": 26.2
+    }, {
+      "text": "Food is such a treat!",
+      "end": 29
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 34
+    }, {
+      "actor": "Verse",
+      "avatar": "singer-4.png",
+      "text": "In Spain they eat paella,",
+      "end": 36.3
+    }, {
+      "text": "In China they eat rice.",
+      "end": 39
+    }, {
+      "text": "The Russians think potatoes",
+      "end": 41.3
+    }, {
+      "text": "Are really, really nice!",
+      "end": 44.4
+    }, {
+      "actor": "Chorus",
+      "avatar": "singer-4.png",
+      "text": "All around the world",
+      "start": 47,
+      "end": 49.4
+    }, {
+      "text": "People love to eat.",
+      "end": 51.9
+    }, {
+      "text": "All around the world",
+      "end": 54.5
+    }, {
+      "text": "Food is such a treat!",
+      "end": 57.7
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 70
+    }]
+  }, {
+    "label": "When I'm at the zoo.",
+    "videoId": "xQrU59cNJfU",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 1.3,
+      "end": 9
+    }, {
+      "actor": "Verse",
+      "avatar": "larry.png",
+      "text": "When I'm at the zoo,",
+      "end": 10.9
+    }, {
+      "text": "What do I see?",
+      "end": 13
+    }, {
+      "text": "Lots of funny animals",
+      "end": 15.2
+    }, {
+      "text": "Looking at me.",
+      "end": 17.3
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 24.5
+    }, {
+      "actor": "Verse",
+      "avatar": "larry.png",
+      "text": "I see a tall giraffe,",
+      "end": 27
+    }, {
+      "text": "Eating from a tree.",
+      "end": 28.9
+    }, {
+      "text": "I see a silly monkey,",
+      "end": 30.8
+    }, {
+      "text": "Laughing at me.",
+      "end": 33.3
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 40.5
+    }, {
+      "actor": "Verse",
+      "avatar": "larry.png",
+      "text": "I see a clever dolphin,",
+      "end": 43
+    }, {
+      "text": "Swimming in the sea.",
+      "end": 44.8
+    }, {
+      "text": "I see a little seal,",
+      "end": 47
+    }, {
+      "text": "Clapping one, two, three!",
+      "end": 49.3
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 56.8
+    }, {
+      "actor": "Verse",
+      "avatar": "larry.png",
+      "text": "I see a lazy lizard,",
+      "end": 59
+    }, {
+      "text": "Sitting in the sun.",
+      "end": 60.8
+    }, {
+      "text": "I see a big whale,",
+      "end": 63
+    }, {
+      "text": "Having lots of fun.",
+      "end": 65.2
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 72.8
+    }, {
+      "actor": "Verse",
+      "avatar": "larry.png",
+      "text": "I see a baby hippo,",
+      "end": 75
+    }, {
+      "text": "Learning how to run.",
+      "end": 77
+    }, {
+      "text": "And one crocodile,",
+      "end": 78.8
+    }, {
+      "text": "Crying on its own!",
+      "end": 81.4
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 93
+    }]
+  }, {
+    "label": "The Yellow Giraffe!",
+    "videoId": "4y_il0rngAQ",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 3.5,
+      "end": 7.2
+    }, {
+      "actor": "Verse",
+      "avatar": "mum.png",
+      "text": "The yellow giraffe is as tall as can be.",
+      "end": 11.7
+    }, {
+      "text": "It can eat the leaves from a very tall tree!",
+      "end": 16.9
+    }, {
+      "text": "It's got a long neck and long legs too.",
+      "end": 21.9
+    }, {
+      "text": "And it can run faster than me or you!",
+      "end": 28.5
+    }, {
+      "text": "The yellow giraffe is as tall as can be.",
+      "end": 33.7
+    }, {
+      "text": "It can eat the leaves from a very tall tree!",
+      "end": 38.8
+    }, {
+      "text": "It's got a long neck and long legs too.",
+      "end": 43.8
+    }, {
+      "text": "And it can run faster than me or you!",
+      "end": 50
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 63
+    }]
+  }, {
+    "label": "I wasn't happy yesterday.",
+    "videoId": "VOUPNJK59Uk",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 1,
+      "end": 5.6
+    }, {
+      "actor": "Verse",
+      "avatar": "singer-7.png",
+      "text": "I wasn't happy yesterday.",
+      "end": 9.7
+    }, {
+      "text": "I was sad, bored and angry!",
+      "end": 14.6
+    }, {
+      "text": "I wasn't happy yesterday.",
+      "start": 17,
+      "end": 21
+    }, {
+      "text": "I was scared, tired and hungry!",
+      "end": 26.2
+    }, {
+      "text": "But not today, not today!",
+      "start": 28.1,
+      "end": 32.1
+    }, {
+      "text": "Today I'm very happy!",
+      "end": 37.5
+    }, {
+      "text": "I wasn't happy yesterday.",
+      "start": 39.7,
+      "end": 43.4
+    }, {
+      "text": "I was sad, bored and angry!",
+      "end": 48
+    }, {
+      "text": "I wasn't happy yesterday.",
+      "start": 50.8,
+      "end": 54.8
+    }, {
+      "text": "I was scared, tired and hungry!",
+      "end": 59
+    }, {
+      "text": "But not today, not today!",
+      "start": 62,
+      "end": 66
+    }, {
+      "text": "Today I'm very happy!",
+      "end": 71.6
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 85
+    }]
+  }, {
+    "label": "In my dreams!",
+    "videoId": "Qrl5QHMLFxY",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 3,
+      "end": 12.2
+    }, {
+      "actor": "Woman",
+      "avatar": "singer-8-woman.png",
+      "text": "You were in my dreams, oh yes, you were!",
+      "end": 17.2
+    }, {
+      "text": "You were in my dreams last night:",
+      "end": 22.5
+    }, {
+      "text": "I was the Beauty and you were the Beast.",
+      "end": 26.7
+    }, {
+      "text": "It was a really funny sight!",
+      "end": 31.2
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 34.7
+    }, {
+      "actor": "Man",
+      "avatar": "singer-8-man.png",
+      "text": "You were in my dreams, oh yes, you were!",
+      "end": 39.7
+    }, {
+      "text": "You were in my dreams last night:",
+      "end": 45.5
+    }, {
+      "text": "I was the Lion and you were the Mouse.",
+      "end": 49.5
+    }, {
+      "text": "It was a really funny sight!",
+      "end": 54.2
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 61.7
+    }]
+  }, {
+    "label": "Oh, what a mystery!",
+    "videoId": "H9mf-m6fhEU",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 2.2,
+      "end": 6.6
+    }, {
+      "actor": "Verse",
+      "avatar": "dad.png",
+      "text": "Oh, what a mystery!",
+      "end": 9
+    }, {
+      "text": "The mouse studied history,",
+      "end": 11.4
+    }, {
+      "text": "The kangaroo climbed up a tree,",
+      "end": 15.7
+    }, {
+      "text": "The elephant played the saxophone,",
+      "end": 20
+    }, {
+      "text": "And the bumblebee dived in the sea!",
+      "end": 25
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 35.6
+    }, {
+      "actor": "Verse",
+      "avatar": "dad.png",
+      "text": "Oh, what a mystery!",
+      "end": 37.8
+    }, {
+      "text": "The mouse studied history,",
+      "end": 40.2
+    }, {
+      "text": "The kangaroo climbed up a tree,",
+      "end": 44.7
+    }, {
+      "text": "The elephant played the saxophone,",
+      "end": 49.1
+    }, {
+      "text": "And the bumblebee dived in the sea!",
+      "end": 54.8
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 61
+    }]
+  }, {
+    "label": "The Best Year ever!",
+    "videoId": "ira7B7WNcJA",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 1.6,
+      "end": 10
+    }, {
+      "actor": "Verse",
+      "avatar": "singer-10.png",
+      "text": "It was the best year ever!",
+      "end": 13.6
+    }, {
+      "text": "I had the greatest time:",
+      "end": 18
+    }, {
+      "text": "I went to the funfair and the zoo,",
+      "end": 22
+    }, {
+      "text": "This year was really fine!",
+      "end": 25.9
+    }, {
+      "actor": "Chorus",
+      "avatar": "singer-10.png",
+      "text": "Oh, what a year,",
+      "end": 30.9
+    }, {
+      "text": "What a year it was!",
+      "end": 34.8
+    }, {
+      "text": "The best year of my life!",
+      "end": 39
+    }, {
+      "actor": "Verse",
+      "avatar": "singer-10.png",
+      "text": "It was the best year ever!",
+      "start": 41.5,
+      "end": 45.5
+    }, {
+      "text": "I had a lot of fun:",
+      "end": 49.5
+    }, {
+      "text": "I saw a magician and a clown,",
+      "end": 53.9
+    }, {
+      "text": "This year was number one!",
+      "end": 58
+    }, {
+      "actor": "Chorus",
+      "avatar": "singer-10.png",
+      "text": "Oh, what a year,",
+      "start": 60.6,
+      "end": 65.4
+    }, {
+      "text": "What a year it was!",
+      "end": 69.8
+    }, {
+      "text": "The best year of my life!",
+      "end": 74.1
+    }, {
+      "text": "The best year of my life!",
+      "end": 78.8
+    }]
+  }, {
+    "label": "Say hello to sunshine!",
+    "videoId": "9QEdElSe8kk",
+    "speech": [{
+      "actor": "[Music]",
+      "text": "🎵",
+      "start": 3.4,
+      "end": 24.4
+    }, {
+      "actor": "Verse",
+      "avatar": "larry-and-lulu.png",
+      "text": "We're going to go on holiday and have a lot of fun.",
+      "end": 29.2
+    }, {
+      "text": "We're going to swim on holiday and lie out in the sun!",
+      "end": 33.8
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 42.9
+    }, {
+      "actor": "Chorus",
+      "avatar": "larry-and-lulu.png",
+      "text": "Say hello to sunshine!",
+      "end": 47.2
+    }, {
+      "text": "Say hello to fun!",
+      "end": 51.5
+    }, {
+      "text": "The holidays are near,",
+      "end": 55.4
+    }, {
+      "text": "So, smile now, everyone!",
+      "end": 59.7
+    }, {
+      "actor": "Verse",
+      "avatar": "larry-and-lulu.png",
+      "text": "We're going to go on holiday, it's time to have a rest!",
+      "start": 63.7,
+      "end": 68.4
+    }, {
+      "text": "We're going to play on holiday, holidays are the best!",
+      "end": 73.2
+    }, {
+      "actor": "[Music]",
+      "text": "🎵",
+      "end": 82.3
+    }, {
+      "actor": "Chorus",
+      "avatar": "larry-and-lulu.png",
+      "text": "Say hello to sunshine!",
+      "end": 86.4
+    }, {
+      "text": "Say hello to fun!",
+      "end": 90.5
+    }, {
+      "text": "The holidays are near,",
+      "end": 94.7
+    }, {
+      "text": "So, smile now, everyone!",
+      "end": 98.7
+    }]
+  }]
+}

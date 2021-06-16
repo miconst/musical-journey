@@ -1,5 +1,15 @@
 {
-  "avatarDir": "assets/scenes/avatars/goldilocks",
+  "avatars": {
+    "location": "assets/scenes/avatars/goldilocks",
+    "files": {
+      "Baby": "baby.png",
+      "Chorus": "singer.png",
+      "Daddy": "daddy.png",
+      "Goldilocks": "goldilocks.png",
+      "Mummy": "mummy.png",
+      "Verse": "singer.png"
+    }
+  },
   "styles": {
     "position": "relative",
     "width": "742px",
@@ -70,7 +80,6 @@
       "end": 36
     }, {
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "Oh, Mummy, please don't worry!",
       "end": 39
     }, {
@@ -79,7 +88,6 @@
       "end": 42
     }, {
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "The wood is nice,",
       "start": 51.5,
       "end": 53.2
@@ -98,7 +106,6 @@
     "label": "Stage 1 - Song",
     "speech": [{
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Goldie, Goldie, Goldilocks",
       "start": 6.8,
       "end": 9.94
@@ -113,7 +120,6 @@
       "end": 19.8
     }, {
       "actor": "Chorus",
-      "avatar": "singer.png",
       "text": "Goldie, Goldie, Goldilocks",
       "start": 22.2,
       "end": 25.4
@@ -140,7 +146,6 @@
       "end": 50.8
     }, {
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Goldie, Goldie, Goldilocks",
       "start": 61.5,
       "end": 64.9
@@ -156,7 +161,6 @@
     }, {
       "text": "Goldie, Goldie, Goldilocks",
       "actor": "Chorus",
-      "avatar": "singer.png",
       "start": 77.1,
       "end": 80.4
     }, {
@@ -182,7 +186,6 @@
       "end": 8.7
     }, {
       "actor": "Daddy",
-      "avatar": "daddy.png",
       "text": "Let's take a walk.",
       "start": 9.5,
       "end": 11.6
@@ -195,7 +198,6 @@
       "end": 14.9
     }, {
       "actor": "Mummy",
-      "avatar": "mummy.png",
       "text": "Well, maybe:",
       "end": 17.3
     }, {
@@ -228,7 +230,6 @@
       "end": 12.5
     }, {
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "No one home.",
       "start": 15.7,
       "end": 17.4
@@ -238,7 +239,6 @@
       "end": 18.3
     }, {
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "What luck - I'll go inside and have a look!",
       "end": 22.2
     }, {
@@ -251,7 +251,6 @@
       "end": 26.3
     }, {
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "I want some porridge",
       "start": 26.4,
       "end": 28.5
@@ -280,7 +279,6 @@
       "end": 6.6
     }, {
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Please put my porridge in a pretty little pot.",
       "end": 10
     }, {
@@ -292,7 +290,6 @@
       "end": 25.1
     }, {
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Porridge oats, porridge oats as tasty as can be.",
       "end": 28.6
     }, {
@@ -313,7 +310,6 @@
       "end": 3.4
     }, {
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "Oh no! Not this one - that one there!",
       "start": 5.7,
       "end": 9.6
@@ -332,7 +328,6 @@
     "videoId": "ldVhMq2cI4M",
     "speech": [{
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "Never mind the chair!",
       "start": 2,
       "end": 4
@@ -342,7 +337,6 @@
       "end": 5.4
     }, {
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "I need a bed -",
       "end": 7.2
     }, {
@@ -362,7 +356,6 @@
     "videoId": "k5UMjLbm6fs",
     "speech": [{
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Go to sleep, Goldie,",
       "start": 1,
       "end": 3.5
@@ -393,7 +386,6 @@
       "end": 24.7
     }, {
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Go to sleep, Goldie,",
       "end": 26.3
     }, {
@@ -427,7 +419,6 @@
     "videoId": "iOtMaGpHK5k",
     "speech": [{
       "actor": "Mummy",
-      "avatar": "mummy.png",
       "text": "Now, come on, everyone!",
       "start": 1.6,
       "end": 4.3
@@ -437,7 +428,6 @@
       "end": 5.7
     }, {
       "actor": "Mummy",
-      "avatar": "mummy.png",
       "text": "Let's eat the porridge!",
       "end": 8
     }, {
@@ -445,7 +435,6 @@
       "end": 10.3
     }, {
       "actor": "Baby",
-      "avatar": "baby.png",
       "text": "But where is mine?",
       "start": 11.6,
       "end": 14
@@ -455,12 +444,10 @@
       "end": 15.9
     }, {
       "actor": "Baby",
-      "avatar": "baby.png",
       "text": "It's not here, is it there?",
       "end": 19.3
     }, {
       "actor": "Daddy",
-      "avatar": "daddy.png",
       "text": "Oh dear! Oh dear!",
       "start": 21.7,
       "end": 25
@@ -473,7 +460,6 @@
       "end": 29.5
     }, {
       "actor": "Baby",
-      "avatar": "baby.png",
       "text": "Mummy, Mummy, it's not fair!",
       "end": 32.6
     }, {
@@ -485,7 +471,6 @@
     "videoId": "Ep6atrEYVrg",
     "speech": [{
       "actor": "Daddy",
-      "avatar": "daddy.png",
       "text": "Let's check the beds!",
       "start": 0.6,
       "end": 3.1
@@ -507,7 +492,6 @@
       "end": 14.7
     }, {
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Poor Baby, poor Baby, poor Baby Bear!",
       "end": 18
     }, {
@@ -519,7 +503,6 @@
       "end": 29.3
     }, {
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Poor Baby, poor Baby, poor Baby Bear!",
       "end": 32.5
     }, {
@@ -531,7 +514,6 @@
       "end": 43.8
     }, {
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Poor Baby, poor Baby, poor Baby Bear!",
       "end": 47.1
     }, {
@@ -547,7 +529,6 @@
     "videoId": "bm7lQ4YJTWg",
     "speech": [{
       "actor": "Baby",
-      "avatar": "baby.png",
       "text": "Who's this? Who's this in my nice bed?",
       "start": 1.3,
       "end": 6
@@ -558,7 +539,6 @@
       "end": 10
     }, {
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "Oh no!",
       "start": 11.4,
       "end": 13.6
@@ -568,7 +548,6 @@
       "end": 15
     }, {
       "actor": "Goldilocks",
-      "avatar": "goldilocks.png",
       "text": "I'm very sorry!",
       "end": 16.9
     }, {
@@ -603,7 +582,6 @@
       "end": 15.4
     }, {
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "And so our little story",
       "end": 18.9
     }, {
@@ -617,7 +595,6 @@
       "end": 30
     }, {
       "actor": "Chorus",
-      "avatar": "singer.png",
       "text": "We all need friends,",
       "start": 32.3,
       "end": 36
@@ -637,7 +614,6 @@
       "end": 61.1
     }, {
       "actor": "Verse",
-      "avatar": "singer.png",
       "text": "Now everybody's happy!",
       "start": 62.8,
       "end": 66.1
@@ -652,7 +628,6 @@
       "end": 77.4
     }, {
       "actor": "Chorus",
-      "avatar": "singer.png",
       "text": "We all need friends,",
       "start": 79.6,
       "end": 83.3

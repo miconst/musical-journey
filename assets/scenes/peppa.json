@@ -1,5 +1,13 @@
 {
-  "avatarDir": "assets/scenes/avatars/peppa",
+  "avatars": {
+    "location": "assets/scenes/avatars/peppa",
+    "files": {
+      "Daddy": "daddy.png",
+      "Mummy": "mummy.png",
+      "Peppa": "peppa.png",
+      "Suzy": "suzy.png"
+    }
+  },
   "styles": {
     "position": "relative",
     "width": "960px",
@@ -41,929 +49,1050 @@
     }
   },
   "play": [{
-      "label": "Best Friend",
-      "videoId": "pDUASheI0aI",
-      "speech": [{
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "I'm Peppa Pig.",
-          "start": 2.2,
-          "end": 4.4
-        },
-        {
-          "text": "This is my little brother George.",
-          "end": 6.6
-        },
-        {
-          "text": "This is Mummy Pig.",
-          "start": 7.1,
-          "end": 9.3
-        },
-        {
-          "text": "And this is Daddy Pig.",
-          "start": 9.6,
-          "end": 12
-        },
-        {
-          "text": "Peppa Pig",
-          "start": 13,
-          "end": 15
-        },
-        {
-          "text": "Best Friend",
-          "start": 19.4,
-          "end": 22.4
-        },
-        {
-          "actor": "Narrator",
-          "text": "Peppa is waiting for her best friend, Suzy Sheep.",
-          "start": 26,
-          "end": 30
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Hello, Suzy.",
-          "start": 35.1,
-          "end": 36.8
-        },
-        {
-          "actor": "Suzy",
-          "avatar": "suzy.png",
-          "text": "Hello, Peppa.",
-          "start": 37.2,
-          "end": 39
-        },
-        {
-          "actor": "Narrator",
-          "text": "Suzy Sheep has come to play with Peppa.",
-          "start": 39.1,
-          "end": 42.2
-        },
-        {
-          "text": "Peppa loves Suzy.",
-          "start": 44,
-          "end": 46
-        },
-        {
-          "text": "Suzy loves Peppa.",
-          "end": 48
-        },
-        {
-          "text": "They are best friends.",
-          "end": 50
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Peppa, why don’t you and Suzy play in your bedroom?",
-          "start": 56.2,
-          "end": 59.8
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Yes, Mummy.",
-          "start": 59.8,
-          "end": 61.5
-        },
-        {
-          "actor": "Narrator",
-          "text": "George wants to play, too.",
-          "start": 63,
-          "end": 65.8
-        },
-        {
-          "text": "Peppa and Suzy love playing in Peppa’s bedroom.",
-          "start": 70.6,
-          "end": 74.6
-        },
-        {
-          "text": "So does George.",
-          "start": 77,
-          "end": 79
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "No, George. This game is just for big girls.",
-          "start": 82,
-          "end": 86.4
-        },
-        {
-          "text": "Go and play with your own toys.",
-          "end": 90
-        },
-        {
-          "actor": "Narrator",
-          "text": "Peppa and Suzy want to play on their own.",
-          "start": 90.4,
-          "end": 93.5
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "I’m a tiny little fairy princess.",
-          "start": 93.6,
-          "end": 97
-        },
-        {
-          "text": "I’m going to wave my magic wand",
-          "start": 105.4,
-          "end": 109
-        },
-        {
-          "text": "and turn you into a frog.",
-          "end": 113
-        },
-        {
-          "actor": "Narrator",
-          "text": "George doesn’t like playing on his own.",
-          "start": 114,
-          "end": 118
-        },
-        {
-          "text": "George wants to play, too.",
-          "start": 121,
-          "end": 123
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "No, George. I’m playing with Suzy.",
-          "start": 123.1,
-          "end": 127.4
-        },
-        {
-          "text": "You have to play somewhere else.",
-          "end": 130.4
-        },
-        {
-          "actor": "Narrator",
-          "text": "George wants to play with Peppa. He feels a bit lonely.",
-          "start": 131,
-          "end": 134.7
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "George, I need some help.",
-          "end": 136.6
-        },
-        {
-          "text": "I’m making chocolate chip cookies.",
-          "end": 140
-        },
-        {
-          "text": "Someone needs to lick out the bowl.",
-          "start": 143,
-          "end": 146
-        },
-        {
-          "actor": "Narrator",
-          "text": "George likes helping Mummy make cookies,",
-          "start": 148,
-          "end": 152
-        },
-        {
-          "text": "but he likes playing with Peppa more.",
-          "end": 156
-        },
-        {
-          "actor": "Suzy",
-          "avatar": "suzy-nurse.png",
-          "text": "I want to be a nurse.",
-          "start": 158.8,
-          "end": 161
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa-doctor.png",
-          "text": "I want to be a doctor.",
-          "start": 161.1,
-          "end": 163.5
-        },
-        {
-          "actor": "Suzy",
-          "avatar": "suzy-nurse.png",
-          "text": "But who’s going to be the sick person?",
-          "end": 166.5
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa-doctor.png",
-          "text": "George!",
-          "start": 169,
-          "end": 171
-        },
-        {
-          "actor": "Narrator",
-          "text": "Peppa and Suzy love playing doctors and nurses.",
-          "start": 174.6,
-          "end": 178.5
-        },
-        {
-          "text": "So does George.",
-          "end": 181
-        },
-        {
-          "text": "Peppa listens to George’s chest.",
-          "end": 184
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa-doctor.png",
-          "text": "Now, George. Take a big breath in, then cough.",
-          "end": 189
-        },
-        {
-          "text": "I think your heart’s a bit loose.",
-          "start": 191,
-          "end": 195
-        },
-        {
-          "text": "I’ll put a plaster on it.",
-          "end": 197
-        },
-        {
-          "actor": "Suzy",
-          "avatar": "suzy-nurse.png",
-          "text": "Open wide, please.",
-          "start": 198.6,
-          "end": 201
-        },
-        {
-          "actor": "Narrator",
-          "text": "Suzy takes George’s temperature.",
-          "end": 203.6
-        },
-        {
-          "actor": "Suzy",
-          "avatar": "suzy-nurse.png",
-          "text": "Oh, dear. You’re very very hot.",
-          "end": 207.8
-        },
-        {
-          "text": "I think you have to stay in bed for three years.",
-          "end": 212
-        },
-        {
-          "actor": "Narrator",
-          "text": "Daddy Pig has come to find George.",
-          "start": 213.9,
-          "end": 216.3
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Oh, no. What’s wrong with George?",
-          "end": 219.6
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa-doctor.png",
-          "text": "Don’t worry, Daddy. It’s only a game.",
-          "end": 221.8
-        },
-        {
-          "text": "George is our patient.",
-          "end": 224
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Oh, I see.",
-          "end": 226
-        },
-        {
-          "text": "Can the patient have a visitor?",
-          "end": 228.4
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa-doctor.png",
-          "text": "Just for a little while.",
-          "end": 230.2
-        },
-        {
-          "text": "He might get tired.",
-          "end": 233
-        },
-        {
-          "actor": "Peppa and Suzy",
-          "text": "Cookies!",
-          "end": 235
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Yes, they’re for George.",
-          "end": 237
-        },
-        {
-          "text": "They’re his medicine to make him feel better.",
-          "end": 240
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Um, excuse me, doctor.",
-          "start": 247,
-          "end": 249.4
-        },
-        {
-          "text": "Can you help me?",
-          "end": 250.6
-        },
-        {
-          "text": "I have a sore tummy.",
-          "end": 253
-        },
-        {
-          "text": "That tickles.",
-          "end": 255
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa-doctor.png",
-          "text": "I can hear it rumbling.",
-          "start": 259,
-          "end": 261
-        },
-        {
-          "text": "I think you’re hungry, Daddy.",
-          "end": 264
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Well, I think I need lots of cookies to make me better.",
-          "start": 264.4,
-          "end": 269
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "And me.",
-          "start": 270,
-          "end": 271.4
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "And me.",
-          "end": 273
-        },
-        {
-          "actor": "Suzy",
-          "avatar": "suzy-nurse.png",
-          "text": "And me.",
-          "end": 275
-        }
-      ]
-    },
-    {
-      "label": "Mummy Pig's Birthday",
-      "videoId": "uw1lGXliQYQ",
-      "speech": [{
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "I'm Peppa Pig.",
-          "start": 2.2,
-          "end": 4.4
-        },
-        {
-          "text": "This is my little brother George.",
-          "end": 6.6
-        },
-        {
-          "text": "This is Mummy Pig.",
-          "start": 7.1,
-          "end": 9.3
-        },
-        {
-          "text": "And this is Daddy Pig.",
-          "start": 9.6,
-          "end": 12
-        },
-        {
-          "text": "Peppa Pig",
-          "start": 13,
-          "end": 15
-        },
-        {
-          "text": "Mummy Pig's Birthday",
-          "start": 19.4,
-          "end": 22.4
-        },
-        {
-          "actor": "Narrator",
-          "text": "Today is Mummy Pig’s birthday.",
-          "start": 23,
-          "end": 26.4
-        },
-        {
-          "text": "Daddy Pig has made Mummy Pig breakfast in bed.",
-          "end": 29
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Happy Birthday, Mummy Pig.",
-          "end": 32
-        },
-        {
-          "actor": "Narrator",
-          "text": "Peppa and George have made Mummy Pig a birthday card.",
-          "end": 35
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Happy Birthday, Mummy.",
-          "end": 37.6
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Oh, what a lovely birthday surprise.",
-          "end": 40.6
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "And there are more surprises to come.",
-          "end": 42.8
-        },
-        {
-          "text": "Enjoy your birthday breakfast.",
-          "end": 44.5
-        },
-        {
-          "text": "Take your time.",
-          "end": 46.5
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Mmm, yummy.",
-          "start": 48.4,
-          "end": 50.8
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Quick, we have to get everything else ready.",
-          "start": 51.2,
-          "end": 54.4
-        },
-        {
-          "actor": "Narrator",
-          "text": "Daddy Pig has made a birthday cake for Mummy Pig.",
-          "end": 57.3
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "We’ve just got to put the candles on.",
-          "end": 60.4
-        },
-        {
-          "text": "One, two...",
-          "end": 63
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Here I come.",
-          "end": 64.4
-        },
-        {
-          "actor": "Narrator",
-          "text": "Mummy Pig has finished her birthday breakfast.",
-          "end": 67
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Mummy’s coming.",
-          "end": 68.6
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Oh, no. We’re not ready yet.",
-          "end": 71.5
-        },
-        {
-          "text": "Who is it?",
-          "end": 74
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "It’s Mummy. Can I come in?",
-          "end": 76
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "No, no.",
-          "end": 77.8
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Is there something secret going on?",
-          "end": 79.9
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "No. Nothing’s going on.",
-          "end": 82
-        },
-        {
-          "text": "But you can’t come in.",
-          "end": 83.6
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "I see.",
-          "end": 85.4
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Mummy Pig, why don’t you relax in the sitting room?",
-          "end": 88.8
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "That sounds nice.",
-          "end": 90
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Well, it is your birthday.",
-          "end": 91.9
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "OK, Peppa.",
-          "end": 93.2
-        },
-        {
-          "text": "I think I know where the sitting room is.",
-          "end": 95.6
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Here’s a nice magazine.",
-          "start": 96.6,
-          "end": 98.7
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Thank you, Peppa.",
-          "end": 99.8
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "And here’s some pretty music.",
-          "end": 102.2
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Thank you, Peppa.",
-          "end": 104
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "We need the same number of candles as Mummy’s age.",
-          "start": 107.8,
-          "end": 111.2
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "One, two, three.",
-          "end": 114
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Oh, dear.",
-          "start": 114.2,
-          "end": 115.4
-        },
-        {
-          "text": "We haven’t got nearly enough candles.",
-          "end": 117.6
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Daddy, how old is Mummy?",
-          "end": 120.8
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "I’ll whisper it in your ear.",
-          "end": 123.6
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Wow! Really old.",
-          "start": 124.8,
-          "end": 127.6
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "You know, I think three candles will be fine.",
-          "end": 131.6
-        },
-        {
-          "actor": "Narrator",
-          "text": "Mummy Pig’s birthday cake is ready.",
-          "end": 134
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Hurrah!",
-          "end": 136.4
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "We just have to put up the decorations in the sitting room.",
-          "end": 140
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Hello, Mummy.",
-          "start": 142.6,
-          "end": 144
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Ah, there you all are.",
-          "end": 145.6
-        },
-        {
-          "text": "I was getting a little bored.",
-          "end": 147.4
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Mummy, would you like to have a nice walk in the garden.",
-          "end": 151
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Do I have any choice?",
-          "end": 153.3
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Nope.",
-          "end": 155.6
-        },
-        {
-          "text": "Bye-bye, Mummy.",
-          "end": 156.6
-        },
-        {
-          "text": "Have a lovely walk.",
-          "end": 158
-        },
-        {
-          "text": "We’ll call you when it’s safe to come back in.",
-          "end": 161
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "I’d forgotten what hard work birthdays were.",
-          "start": 161.8,
-          "end": 166
-        },
-        {
-          "actor": "Narrator",
-          "text": "Daddy Pig, Peppa and George are decorating the sitting room.",
-          "end": 170
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "This is fun.",
-          "start": 176.6,
-          "end": 178
-        },
-        {
-          "actor": "Narrator",
-          "text": "Granny Pig and Grandpa Pig have arrived for Mummy Pig’s birthday.",
-          "start": 180,
-          "end": 185.4
-        },
-        {
-          "actor": "Grandpa",
-          "text": "Happy Birthday, Mummy Pig.",
-          "end": 188.2
-        },
-        {
-          "actor": "Granny",
-          "text": "Aren’t you coming inside?",
-          "end": 190.2
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Oh, I can’t come in yet.",
-          "end": 191.8
-        },
-        {
-          "text": "Daddy Pig, Peppa and George are doing secret things for my birthday.",
-          "end": 195.4
-        },
-        {
-          "actor": "Granny",
-          "text": "How lovely. See you later.",
-          "end": 198.3
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Bye.",
-          "end": 200
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Mummy, would you like to come inside now?",
-          "start": 202,
-          "end": 204.6
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "I’d love to.",
-          "end": 206
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Close your eyes.",
-          "end": 208
-        },
-        {
-          "text": "Keep your eyes closed, Mummy.",
-          "start": 211.3,
-          "end": 214
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "One, two, three, open your eyes.",
-          "start": 215.4,
-          "end": 220.2
-        },
-        {
-          "actor": "All",
-          "text": "Happy Birthday, Mummy Pig.",
-          "end": 223
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "What a lovely surprise.",
-          "start": 224,
-          "end": 226.4
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Blow the candles out, and make a wish.",
-          "end": 230
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Mummy, Mummy, open your present.",
-          "start": 231,
-          "end": 232.8
-        },
-        {
-          "text": "Can you guess what it is?",
-          "end": 235
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "I’ve no idea.",
-          "end": 237.3
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Open it and see.",
-          "end": 240
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "It’s a beautiful dress.",
-          "start": 241.2,
-          "end": 245
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "You’re beautiful, Mummy.",
-          "start": 248.4,
-          "end": 251.6
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Now you just need somewhere nice to wear it.",
-          "end": 254.4
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "What’s this?",
-          "end": 255.5
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "Two tickets to the theatre.",
-          "end": 257.45
-        },
-        {
-          "text": "Tonight.",
-          "end": 258.5
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "Thank you.",
-          "start": 259.4,
-          "end": 261
-        },
-        {
-          "actor": "Narrator",
-          "text": "Mummy Pig loves going to the theatre.",
-          "end": 263.6
-        },
-        {
-          "actor": "Grandpa",
-          "text": "And Granny Pig and I are going to babysit the little ones.",
-          "end": 267.8
-        },
-        {
-          "actor": "Peppa",
-          "avatar": "peppa.png",
-          "text": "Hurrah!",
-          "end": 269
-        },
-        {
-          "actor": "Mummy",
-          "avatar": "mummy.png",
-          "text": "What a super birthday.",
-          "start": 270,
-          "end": 272.6
-        },
-        {
-          "text": "I’m the luckiest mummy in the whole world.",
-          "end": 275.4
-        },
-        {
-          "actor": "Daddy",
-          "avatar": "daddy.png",
-          "text": "And the most beautiful.",
-          "end": 279
-        }
-      ]
-    }
-  ]
+    "label": "Best Friend",
+    "videoId": "pDUASheI0aI",
+    "speech": [{
+      "actor": "Peppa",
+      "text": "I'm Peppa Pig.",
+      "start": 2.2,
+      "end": 4.4
+    }, {
+      "text": "This is my little brother George.",
+      "end": 6.6
+    }, {
+      "text": "This is Mummy Pig.",
+      "start": 7.1,
+      "end": 9.3
+    }, {
+      "text": "And this is Daddy Pig.",
+      "start": 9.6,
+      "end": 12
+    }, {
+      "text": "Peppa Pig",
+      "start": 13,
+      "end": 15
+    }, {
+      "text": "Best Friend",
+      "start": 19.4,
+      "end": 22.4
+    }, {
+      "actor": "Narrator",
+      "text": "Peppa is waiting for her best friend, Suzy Sheep.",
+      "start": 26,
+      "end": 30
+    }, {
+      "actor": "Peppa",
+      "text": "Hello, Suzy.",
+      "start": 35.1,
+      "end": 36.8
+    }, {
+      "actor": "Suzy",
+      "text": "Hello, Peppa.",
+      "start": 37.2,
+      "end": 39
+    }, {
+      "actor": "Narrator",
+      "text": "Suzy Sheep has come to play with Peppa.",
+      "start": 39.1,
+      "end": 42.2
+    }, {
+      "text": "Peppa loves Suzy.",
+      "start": 44,
+      "end": 46
+    }, {
+      "text": "Suzy loves Peppa.",
+      "end": 48
+    }, {
+      "text": "They are best friends.",
+      "end": 50
+    }, {
+      "actor": "Mummy",
+      "text": "Peppa, why don’t you and Suzy play in your bedroom?",
+      "start": 56.2,
+      "end": 59.8
+    }, {
+      "actor": "Peppa",
+      "text": "Yes, Mummy.",
+      "start": 59.8,
+      "end": 61.5
+    }, {
+      "actor": "Narrator",
+      "text": "George wants to play, too.",
+      "start": 63,
+      "end": 65.8
+    }, {
+      "text": "Peppa and Suzy love playing in Peppa’s bedroom.",
+      "start": 70.6,
+      "end": 74.6
+    }, {
+      "text": "So does George.",
+      "start": 77,
+      "end": 79
+    }, {
+      "actor": "Peppa",
+      "text": "No, George. This game is just for big girls.",
+      "start": 82,
+      "end": 86.4
+    }, {
+      "text": "Go and play with your own toys.",
+      "end": 90
+    }, {
+      "actor": "Narrator",
+      "text": "Peppa and Suzy want to play on their own.",
+      "start": 90.4,
+      "end": 93.5
+    }, {
+      "actor": "Peppa",
+      "text": "I’m a tiny little fairy princess.",
+      "start": 93.6,
+      "end": 97
+    }, {
+      "text": "I’m going to wave my magic wand",
+      "start": 105.4,
+      "end": 109
+    }, {
+      "text": "and turn you into a frog.",
+      "end": 113
+    }, {
+      "actor": "Narrator",
+      "text": "George doesn’t like playing on his own.",
+      "start": 114,
+      "end": 118
+    }, {
+      "text": "George wants to play, too.",
+      "start": 121,
+      "end": 123
+    }, {
+      "actor": "Peppa",
+      "text": "No, George. I’m playing with Suzy.",
+      "start": 123.1,
+      "end": 127.4
+    }, {
+      "text": "You have to play somewhere else.",
+      "end": 130.4
+    }, {
+      "actor": "Narrator",
+      "text": "George wants to play with Peppa. He feels a bit lonely.",
+      "start": 131,
+      "end": 134.7
+    }, {
+      "actor": "Mummy",
+      "text": "George, I need some help.",
+      "end": 136.6
+    }, {
+      "text": "I’m making chocolate chip cookies.",
+      "end": 140
+    }, {
+      "text": "Someone needs to lick out the bowl.",
+      "start": 143,
+      "end": 146
+    }, {
+      "actor": "Narrator",
+      "text": "George likes helping Mummy make cookies,",
+      "start": 148,
+      "end": 152
+    }, {
+      "text": "but he likes playing with Peppa more.",
+      "end": 156
+    }, {
+      "actor": "Suzy",
+      "avatar": "suzy-nurse.png",
+      "text": "I want to be a nurse.",
+      "start": 158.8,
+      "end": 161
+    }, {
+      "actor": "Peppa",
+      "avatar": "peppa-doctor.png",
+      "text": "I want to be a doctor.",
+      "start": 161.1,
+      "end": 163.5
+    }, {
+      "actor": "Suzy",
+      "avatar": "suzy-nurse.png",
+      "text": "But who’s going to be the sick person?",
+      "end": 166.5
+    }, {
+      "actor": "Peppa",
+      "avatar": "peppa-doctor.png",
+      "text": "George!",
+      "start": 169,
+      "end": 171
+    }, {
+      "actor": "Narrator",
+      "text": "Peppa and Suzy love playing doctors and nurses.",
+      "start": 174.6,
+      "end": 178.5
+    }, {
+      "text": "So does George.",
+      "end": 181
+    }, {
+      "text": "Peppa listens to George’s chest.",
+      "end": 184
+    }, {
+      "actor": "Peppa",
+      "avatar": "peppa-doctor.png",
+      "text": "Now, George. Take a big breath in, then cough.",
+      "end": 189
+    }, {
+      "text": "I think your heart’s a bit loose.",
+      "start": 191,
+      "end": 195
+    }, {
+      "text": "I’ll put a plaster on it.",
+      "end": 197
+    }, {
+      "actor": "Suzy",
+      "avatar": "suzy-nurse.png",
+      "text": "Open wide, please.",
+      "start": 198.6,
+      "end": 201
+    }, {
+      "actor": "Narrator",
+      "text": "Suzy takes George’s temperature.",
+      "end": 203.6
+    }, {
+      "actor": "Suzy",
+      "avatar": "suzy-nurse.png",
+      "text": "Oh, dear. You’re very very hot.",
+      "end": 207.8
+    }, {
+      "text": "I think you have to stay in bed for three years.",
+      "end": 212
+    }, {
+      "actor": "Narrator",
+      "text": "Daddy Pig has come to find George.",
+      "start": 213.9,
+      "end": 216.3
+    }, {
+      "actor": "Daddy",
+      "text": "Oh, no. What’s wrong with George?",
+      "end": 219.6
+    }, {
+      "actor": "Peppa",
+      "avatar": "peppa-doctor.png",
+      "text": "Don’t worry, Daddy. It’s only a game.",
+      "end": 221.8
+    }, {
+      "text": "George is our patient.",
+      "end": 224
+    }, {
+      "actor": "Daddy",
+      "text": "Oh, I see.",
+      "end": 226
+    }, {
+      "text": "Can the patient have a visitor?",
+      "end": 228.4
+    }, {
+      "actor": "Peppa",
+      "avatar": "peppa-doctor.png",
+      "text": "Just for a little while.",
+      "end": 230.2
+    }, {
+      "text": "He might get tired.",
+      "end": 233
+    }, {
+      "actor": "Peppa and Suzy",
+      "text": "Cookies!",
+      "end": 235
+    }, {
+      "actor": "Mummy",
+      "text": "Yes, they’re for George.",
+      "end": 237
+    }, {
+      "text": "They’re his medicine to make him feel better.",
+      "end": 240
+    }, {
+      "actor": "Daddy",
+      "text": "Um, excuse me, doctor.",
+      "start": 247,
+      "end": 249.4
+    }, {
+      "text": "Can you help me?",
+      "end": 250.6
+    }, {
+      "text": "I have a sore tummy.",
+      "end": 253
+    }, {
+      "text": "That tickles.",
+      "end": 255
+    }, {
+      "actor": "Peppa",
+      "avatar": "peppa-doctor.png",
+      "text": "I can hear it rumbling.",
+      "start": 259,
+      "end": 261
+    }, {
+      "text": "I think you’re hungry, Daddy.",
+      "end": 264
+    }, {
+      "actor": "Daddy",
+      "text": "Well, I think I need lots of cookies to make me better.",
+      "start": 264.4,
+      "end": 269
+    }, {
+      "actor": "Mummy",
+      "text": "And me.",
+      "start": 270,
+      "end": 271.4
+    }, {
+      "actor": "Peppa",
+      "text": "And me.",
+      "end": 273
+    }, {
+      "actor": "Suzy",
+      "avatar": "suzy-nurse.png",
+      "text": "And me.",
+      "end": 275
+    }]
+  }, {
+    "label": "Bicycles",
+    "videoId": "t4lljYv8MR4",
+    "speech": [{
+      "actor": "Peppa",
+      "text": "I'm Peppa Pig.",
+      "start": 2.2,
+      "end": 4.4
+    }, {
+      "text": "This is my little brother George.",
+      "end": 6.6
+    }, {
+      "text": "This is Mummy Pig.",
+      "start": 7.1,
+      "end": 9.3
+    }, {
+      "text": "And this is Daddy Pig.",
+      "start": 9.6,
+      "end": 12
+    }, {
+      "text": "Peppa Pig",
+      "start": 13,
+      "end": 15
+    }, {
+      "text": "Bicycles",
+      "start": 19.4,
+      "end": 22.4
+    }, {
+      "actor": "Narrator",
+      "text": "It is a lovely sunny day",
+      "start": 23,
+      "end": 24.9
+    }, {
+      "text": "and Peppa and George are riding their bicycles.",
+      "end": 28
+    }, {
+      "actor": "Mummy",
+      "text": "That’s a fine pumpkin, Daddy Pig.",
+      "start": 32,
+      "end": 35
+    }, {
+      "actor": "Narrator",
+      "text": "Daddy Pig is very proud of his pumpkin.",
+      "end": 37.9
+    }, {
+      "actor": "Daddy",
+      "text": "Pumpkins are the only thing I can grow.",
+      "end": 40
+    }, {
+      "text": "Probably because I love pumpkin pie.",
+      "end": 43.2
+    }, {
+      "actor": "Peppa",
+      "text": "Come on, George.",
+      "start": 44,
+      "end": 46.4
+    }, {
+      "text": "Danny! Suzy! Rebecca!",
+      "end": 48.8
+    }, {
+      "actor": "Narrator",
+      "text": "Peppa and her friends",
+      "end": 49.8
+    }, {
+      "text": "Danny Dog, Suzy Sheep and Rebecca Rabbit",
+      "end": 52
+    }, {
+      "text": "are riding their bicycles.",
+      "end": 53.8
+    }, {
+      "text": "George is riding his tricycle.",
+      "end": 56.4
+    }, {
+      "actor": "Peppa",
+      "text": "He’s going so slowly.",
+      "end": 59
+    }, {
+      "actor": "Danny",
+      "text": "Let’s race to Daddy Pig’s pumpkin.",
+      "start": 61.9,
+      "end": 64.6
+    }, {
+      "actor": "Peppa",
+      "text": "If we race to Daddy’s pumpkin,",
+      "end": 67
+    }, {
+      "text": "we have to be very careful not to bump into it.",
+      "end": 70.4
+    }, {
+      "text": "Daddy would be very sad if the pumpkin got broken.",
+      "end": 74.7
+    }, {
+      "actor": "Danny",
+      "text": "Don’t worry, Peppa. Race you.",
+      "end": 77.6
+    }, {
+      "actor": "Narrator",
+      "text": "Peppa and her friends are racing to Daddy Pig’s pumpkin.",
+      "start": 78.4,
+      "end": 81.8
+    }, {
+      "actor": "Daddy",
+      "text": "Hey, watch out for my pumpkin.",
+      "end": 84.4
+    }, {
+      "actor": "Mummy",
+      "text": "Peppa, look out.",
+      "start": 89.3,
+      "end": 90.9
+    }, {
+      "text": "Daddy’s pumpkin.",
+      "end": 93.7
+    }, {
+      "actor": "Peppa",
+      "text": "Sorry, Daddy.",
+      "end": 95.4
+    }, {
+      "text": "Look at George. He’s going so slowly.",
+      "start": 97.3,
+      "end": 101
+    }, {
+      "text": "George is still riding a baby bike.",
+      "end": 104.8
+    }, {
+      "actor": "Danny",
+      "text": "Yours is a baby bike too, Peppa.",
+      "start": 106,
+      "end": 108.6
+    }, {
+      "text": "You’ve still got stabilisers.",
+      "end": 111.3
+    }, {
+      "actor": "Rebecca",
+      "text": "I can ride without my stabilisers.",
+      "end": 113.8
+    }, {
+      "actor": "Suzy",
+      "text": "Me too.",
+      "start": 114.8,
+      "end": 116
+    }, {
+      "actor": "Danny",
+      "text": "And me.",
+      "end": 117.4
+    }, {
+      "text": "Let’s ride up the hill again.",
+      "start": 120,
+      "end": 122
+    }, {
+      "text": "Are you coming, Peppa?",
+      "end": 124
+    }, {
+      "actor": "Peppa",
+      "text": "No, I think I’ll stay here.",
+      "end": 126
+    }, {
+      "actor": "Suzy",
+      "text": "See you later.",
+      "start": 127.6,
+      "end": 130.3
+    }, {
+      "actor": "Peppa",
+      "text": "Bye.",
+      "end": 131.5
+    }, {
+      "actor": "Narrator",
+      "text": "Peppa wishes she did not have stabilisers on her bicycle.",
+      "end": 135.2
+    }, {
+      "actor": "Peppa",
+      "text": "Daddy, I don’t want stabiliers anymore.",
+      "start": 136.2,
+      "end": 139.8
+    }, {
+      "actor": "Daddy",
+      "text": "Do you think you can ride without them?",
+      "end": 142
+    }, {
+      "actor": "Peppa",
+      "text": "Yes.",
+      "end": 143.2
+    }, {
+      "actor": "Daddy",
+      "text": "All right, Peppa. Let’s take them off.",
+      "end": 146
+    }, {
+      "actor": "Narrator",
+      "text": "Daddy Pig is taking the stabilisers off Peppa’s bicycle.",
+      "end": 150
+    }, {
+      "actor": "Mummy",
+      "text": "Are you sure you want to ride without stabilisers?",
+      "end": 153.6
+    }, {
+      "actor": "Peppa",
+      "text": "Yes.",
+      "end": 154.7
+    }, {
+      "actor": "Mummy",
+      "text": "You’ve never done it before.",
+      "end": 156.8
+    }, {
+      "text": "I can do it. I can, I can.",
+      "actor": "Peppa",
+      "end": 159.4
+    }, {
+      "text": "It’s not funny.",
+      "start": 164,
+      "end": 166
+    }, {
+      "actor": "Narrator",
+      "text": "Riding without stabilisers is not easy.",
+      "end": 169
+    }, {
+      "actor": "Daddy",
+      "text": "Would you like some help, Peppa?",
+      "end": 171
+    }, {
+      "actor": "Peppa",
+      "text": "Yes, please, Daddy.",
+      "end": 173
+    }, {
+      "actor": "Daddy",
+      "text": "All right. Ready, steady, go.",
+      "end": 178
+    }, {
+      "actor": "Peppa",
+      "text": "Don’t let go, Daddy.",
+      "end": 179.7
+    }, {
+      "actor": "Daddy",
+      "text": "Don’t worry. I’ve got you.",
+      "end": 182.1
+    }, {
+      "actor": "Mummy",
+      "text": "You’re doing really well, Peppa.",
+      "start": 182.7,
+      "end": 185.6
+    }, {
+      "actor": "Peppa",
+      "text": "Hold on, Daddy.",
+      "start": 186.4,
+      "end": 188.2
+    }, {
+      "actor": "Daddy",
+      "text": "Just keep pedalling.",
+      "start": 189.4,
+      "end": 191.7
+    }, {
+      "actor": "Narrator",
+      "text": "Peppa is riding on her own without stabilisers.",
+      "end": 195.7
+    }, {
+      "actor": "Peppa",
+      "text": "Daddy, you let go.",
+      "start": 196.8,
+      "end": 199.6
+    }, {
+      "actor": "Daddy",
+      "text": "You’ve been cycling on your own for ages.",
+      "end": 203.5
+    }, {
+      "actor": "Peppa",
+      "text": "Have I?",
+      "end": 204.4
+    }, {
+      "actor": "Mummy",
+      "text": "You’re really very good at it.",
+      "end": 207
+    }, {
+      "actor": "Peppa",
+      "text": "Am I?",
+      "end": 208.5
+    }, {
+      "text": "Oh, I can do it.",
+      "end": 210.9
+    }, {
+      "text": "Look at me, look at me.",
+      "end": 212.35
+    }, {
+      "text": "I can ride my bike properly.",
+      "end": 216.9
+    }, {
+      "text": "Danny, Suzy, Rebecca, look.",
+      "end": 220
+    }, {
+      "text": "I don’t need my stabilisers anymore.",
+      "end": 224
+    }, {
+      "text": "Look at me.",
+      "end": 225.4
+    }, {
+      "actor": "Danny, Suzy, Rebecca",
+      "text": "Hurrah!",
+      "end": 226.8
+    }, {
+      "actor": "Peppa",
+      "text": "Race you to Daddy’s pumpkin.",
+      "start": 228,
+      "end": 230.6
+    }, {
+      "text": "Whee!",
+      "start": 233.7,
+      "end": 235
+    }, {
+      "actor": "Daddy",
+      "text": "Peppa, look out! My pumpkin!",
+      "end": 238
+    }, {
+      "actor": "Peppa",
+      "text": "I’m going to win.",
+      "end": 239.9
+    }, {
+      "actor": "Narrator",
+      "text": "Peppa is not looking where she is going.",
+      "end": 242.6
+    }, {
+      "text": "Oh, dear.",
+      "start": 247.4,
+      "end": 249
+    }, {
+      "text": "Peppa has squashed Daddy Pig’s pumpkin.",
+      "end": 252.4
+    }, {
+      "actor": "Peppa",
+      "text": "Sorry I squashed your pumpkin, Daddy.",
+      "end": 255.9
+    }, {
+      "actor": "Daddy",
+      "text": "Never mind the pumpkin.",
+      "end": 257.7
+    }, {
+      "text": "The important thing is that you are okay.",
+      "end": 260
+    }, {
+      "text": "In future you really must look where you’re going.",
+      "end": 263.5
+    }, {
+      "actor": "Peppa",
+      "text": "I promise I will, Daddy",
+      "end": 265.4
+    }, {
+      "actor": "Daddy",
+      "text": "Good.",
+      "end": 266.6
+    }, {
+      "text": "Anyway, now the pumpkin is broken,",
+      "end": 269.7
+    }, {
+      "text": "I can make it into pumpkin pie.",
+      "end": 272
+    }, {
+      "actor": "Peppa",
+      "text": "I love pumpkin pie.",
+      "end": 274.9
+    }, {
+      "actor": "Mummy",
+      "text": "And because Daddy Pig’s pumpkin is so big,",
+      "end": 277.3
+    }, {
+      "text": "there will be enough pumpkin pie for everyone.",
+      "end": 282
+    }]
+  }, {
+    "label": "Mummy Pig's Birthday",
+    "videoId": "uw1lGXliQYQ",
+    "speech": [{
+      "actor": "Peppa",
+      "text": "I'm Peppa Pig.",
+      "start": 2.2,
+      "end": 4.4
+    }, {
+      "text": "This is my little brother George.",
+      "end": 6.6
+    }, {
+      "text": "This is Mummy Pig.",
+      "start": 7.1,
+      "end": 9.3
+    }, {
+      "text": "And this is Daddy Pig.",
+      "start": 9.6,
+      "end": 12
+    }, {
+      "text": "Peppa Pig",
+      "start": 13,
+      "end": 15
+    }, {
+      "text": "Mummy Pig's Birthday",
+      "start": 19.4,
+      "end": 22.4
+    }, {
+      "actor": "Narrator",
+      "text": "Today is Mummy Pig’s birthday.",
+      "start": 23,
+      "end": 26.4
+    }, {
+      "text": "Daddy Pig has made Mummy Pig breakfast in bed.",
+      "end": 29
+    }, {
+      "actor": "Daddy",
+      "text": "Happy Birthday, Mummy Pig.",
+      "end": 32
+    }, {
+      "actor": "Narrator",
+      "text": "Peppa and George have made Mummy Pig a birthday card.",
+      "end": 35
+    }, {
+      "actor": "Peppa",
+      "text": "Happy Birthday, Mummy.",
+      "end": 37.6
+    }, {
+      "actor": "Mummy",
+      "text": "Oh, what a lovely birthday surprise.",
+      "end": 40.6
+    }, {
+      "actor": "Daddy",
+      "text": "And there are more surprises to come.",
+      "end": 42.8
+    }, {
+      "text": "Enjoy your birthday breakfast.",
+      "end": 44.5
+    }, {
+      "text": "Take your time.",
+      "end": 46.5
+    }, {
+      "actor": "Mummy",
+      "text": "Mmm, yummy.",
+      "start": 48.4,
+      "end": 50.8
+    }, {
+      "actor": "Daddy",
+      "text": "Quick, we have to get everything else ready.",
+      "start": 51.2,
+      "end": 54.4
+    }, {
+      "actor": "Narrator",
+      "text": "Daddy Pig has made a birthday cake for Mummy Pig.",
+      "end": 57.3
+    }, {
+      "actor": "Daddy",
+      "text": "We’ve just got to put the candles on.",
+      "end": 60.4
+    }, {
+      "text": "One, two...",
+      "end": 63
+    }, {
+      "actor": "Mummy",
+      "text": "Here I come.",
+      "end": 64.4
+    }, {
+      "actor": "Narrator",
+      "text": "Mummy Pig has finished her birthday breakfast.",
+      "end": 67
+    }, {
+      "actor": "Peppa",
+      "text": "Mummy’s coming.",
+      "end": 68.6
+    }, {
+      "actor": "Daddy",
+      "text": "Oh, no. We’re not ready yet.",
+      "end": 71.5
+    }, {
+      "text": "Who is it?",
+      "end": 74
+    }, {
+      "actor": "Mummy",
+      "text": "It’s Mummy. Can I come in?",
+      "end": 76
+    }, {
+      "actor": "Peppa",
+      "text": "No, no.",
+      "end": 77.8
+    }, {
+      "actor": "Mummy",
+      "text": "Is there something secret going on?",
+      "end": 79.9
+    }, {
+      "actor": "Daddy",
+      "text": "No. Nothing’s going on.",
+      "end": 82
+    }, {
+      "text": "But you can’t come in.",
+      "end": 83.6
+    }, {
+      "actor": "Mummy",
+      "text": "I see.",
+      "end": 85.4
+    }, {
+      "actor": "Daddy",
+      "text": "Mummy Pig, why don’t you relax in the sitting room?",
+      "end": 88.8
+    }, {
+      "actor": "Mummy",
+      "text": "That sounds nice.",
+      "end": 90
+    }, {
+      "actor": "Daddy",
+      "text": "Well, it is your birthday.",
+      "end": 91.9
+    }, {
+      "actor": "Mummy",
+      "text": "OK, Peppa.",
+      "end": 93.2
+    }, {
+      "text": "I think I know where the sitting room is.",
+      "end": 95.6
+    }, {
+      "actor": "Peppa",
+      "text": "Here’s a nice magazine.",
+      "start": 96.6,
+      "end": 98.7
+    }, {
+      "actor": "Mummy",
+      "text": "Thank you, Peppa.",
+      "end": 99.8
+    }, {
+      "actor": "Peppa",
+      "text": "And here’s some pretty music.",
+      "end": 102.2
+    }, {
+      "actor": "Mummy",
+      "text": "Thank you, Peppa.",
+      "end": 104
+    }, {
+      "actor": "Daddy",
+      "text": "We need the same number of candles as Mummy’s age.",
+      "start": 107.8,
+      "end": 111.2
+    }, {
+      "actor": "Peppa",
+      "text": "One, two, three.",
+      "end": 114
+    }, {
+      "actor": "Daddy",
+      "text": "Oh, dear.",
+      "start": 114.2,
+      "end": 115.4
+    }, {
+      "text": "We haven’t got nearly enough candles.",
+      "end": 117.6
+    }, {
+      "actor": "Peppa",
+      "text": "Daddy, how old is Mummy?",
+      "end": 120.8
+    }, {
+      "actor": "Daddy",
+      "text": "I’ll whisper it in your ear.",
+      "end": 123.6
+    }, {
+      "actor": "Peppa",
+      "text": "Wow! Really old.",
+      "start": 124.8,
+      "end": 127.6
+    }, {
+      "actor": "Daddy",
+      "text": "You know, I think three candles will be fine.",
+      "end": 131.6
+    }, {
+      "actor": "Narrator",
+      "text": "Mummy Pig’s birthday cake is ready.",
+      "end": 134
+    }, {
+      "actor": "Peppa",
+      "text": "Hurrah!",
+      "end": 136.4
+    }, {
+      "actor": "Daddy",
+      "text": "We just have to put up the decorations in the sitting room.",
+      "end": 140
+    }, {
+      "actor": "Peppa",
+      "text": "Hello, Mummy.",
+      "start": 142.6,
+      "end": 144
+    }, {
+      "actor": "Mummy",
+      "text": "Ah, there you all are.",
+      "end": 145.6
+    }, {
+      "text": "I was getting a little bored.",
+      "end": 147.4
+    }, {
+      "actor": "Peppa",
+      "text": "Mummy, would you like to have a nice walk in the garden.",
+      "end": 151
+    }, {
+      "actor": "Mummy",
+      "text": "Do I have any choice?",
+      "end": 153.3
+    }, {
+      "actor": "Peppa",
+      "text": "Nope.",
+      "end": 155.6
+    }, {
+      "text": "Bye-bye, Mummy.",
+      "end": 156.6
+    }, {
+      "text": "Have a lovely walk.",
+      "end": 158
+    }, {
+      "text": "We’ll call you when it’s safe to come back in.",
+      "end": 161
+    }, {
+      "actor": "Mummy",
+      "text": "I’d forgotten what hard work birthdays were.",
+      "start": 161.8,
+      "end": 166
+    }, {
+      "actor": "Narrator",
+      "text": "Daddy Pig, Peppa and George are decorating the sitting room.",
+      "end": 170
+    }, {
+      "actor": "Peppa",
+      "text": "This is fun.",
+      "start": 176.6,
+      "end": 178
+    }, {
+      "actor": "Narrator",
+      "text": "Granny Pig and Grandpa Pig have arrived for Mummy Pig’s birthday.",
+      "start": 180,
+      "end": 185.4
+    }, {
+      "actor": "Grandpa",
+      "text": "Happy Birthday, Mummy Pig.",
+      "end": 188.2
+    }, {
+      "actor": "Granny",
+      "text": "Aren’t you coming inside?",
+      "end": 190.2
+    }, {
+      "actor": "Mummy",
+      "text": "Oh, I can’t come in yet.",
+      "end": 191.8
+    }, {
+      "text": "Daddy Pig, Peppa and George are doing secret things for my birthday.",
+      "end": 195.4
+    }, {
+      "actor": "Granny",
+      "text": "How lovely. See you later.",
+      "end": 198.3
+    }, {
+      "actor": "Mummy",
+      "text": "Bye.",
+      "end": 200
+    }, {
+      "actor": "Peppa",
+      "text": "Mummy, would you like to come inside now?",
+      "start": 202,
+      "end": 204.6
+    }, {
+      "actor": "Mummy",
+      "text": "I’d love to.",
+      "end": 206
+    }, {
+      "actor": "Peppa",
+      "text": "Close your eyes.",
+      "end": 208
+    }, {
+      "text": "Keep your eyes closed, Mummy.",
+      "start": 211.3,
+      "end": 214
+    }, {
+      "actor": "Daddy",
+      "text": "One, two, three, open your eyes.",
+      "start": 215.4,
+      "end": 220.2
+    }, {
+      "actor": "All",
+      "text": "Happy Birthday, Mummy Pig.",
+      "end": 223
+    }, {
+      "actor": "Mummy",
+      "text": "What a lovely surprise.",
+      "start": 224,
+      "end": 226.4
+    }, {
+      "actor": "Daddy",
+      "text": "Blow the candles out, and make a wish.",
+      "end": 230
+    }, {
+      "actor": "Peppa",
+      "text": "Mummy, Mummy, open your present.",
+      "start": 231,
+      "end": 232.8
+    }, {
+      "text": "Can you guess what it is?",
+      "end": 235
+    }, {
+      "actor": "Mummy",
+      "text": "I’ve no idea.",
+      "end": 237.3
+    }, {
+      "actor": "Daddy",
+      "text": "Open it and see.",
+      "end": 240
+    }, {
+      "actor": "Mummy",
+      "text": "It’s a beautiful dress.",
+      "start": 241.2,
+      "end": 245
+    }, {
+      "actor": "Peppa",
+      "text": "You’re beautiful, Mummy.",
+      "start": 248.4,
+      "end": 251.6
+    }, {
+      "actor": "Daddy",
+      "text": "Now you just need somewhere nice to wear it.",
+      "end": 254.4
+    }, {
+      "actor": "Mummy",
+      "text": "What’s this?",
+      "end": 255.5
+    }, {
+      "actor": "Daddy",
+      "text": "Two tickets to the theatre.",
+      "end": 257.45
+    }, {
+      "text": "Tonight.",
+      "end": 258.5
+    }, {
+      "actor": "Mummy",
+      "text": "Thank you.",
+      "start": 259.4,
+      "end": 261
+    }, {
+      "actor": "Narrator",
+      "text": "Mummy Pig loves going to the theatre.",
+      "end": 263.6
+    }, {
+      "actor": "Grandpa",
+      "text": "And Granny Pig and I are going to babysit the little ones.",
+      "end": 267.8
+    }, {
+      "actor": "Peppa",
+      "text": "Hurrah!",
+      "end": 269
+    }, {
+      "actor": "Mummy",
+      "text": "What a super birthday.",
+      "start": 270,
+      "end": 272.6
+    }, {
+      "text": "I’m the luckiest mummy in the whole world.",
+      "end": 275.4
+    }, {
+      "actor": "Daddy",
+      "text": "And the most beautiful.",
+      "end": 279
+    }]
+  }]
 }
