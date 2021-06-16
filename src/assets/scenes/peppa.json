@@ -399,7 +399,7 @@
       "actor": "Peppa",
       "text": "Come on, George.",
       "start": 44,
-      "end": 46
+      "end": 46.4
     }, {
       "text": "Danny! Suzy! Rebecca!",
       "end": 48.8
@@ -427,7 +427,10 @@
       "end": 64.6
     }, {
       "actor": "Peppa",
-      "text": "If we race to Daddy’s pumpkin, we have to be very careful not to bump into it.",
+      "text": "If we race to Daddy’s pumpkin,",
+      "end": 67
+    }, {
+      "text": "we have to be very careful not to bump into it.",
       "end": 70.4
     }, {
       "text": "Daddy would be very sad if the pumpkin got broken.",
@@ -442,13 +445,19 @@
       "start": 78.4,
       "end": 81.8
     }, {
+      "actor": "Daddy",
       "text": "Hey, watch out for my pumpkin.",
       "end": 84.4
     }, {
-      "text": "Peppa, look out. Daddy’s pumpkin.",
+      "actor": "Mummy",
+      "text": "Peppa, look out.",
       "start": 89.3,
+      "end": 90.9
+    }, {
+      "text": "Daddy’s pumpkin.",
       "end": 93.7
     }, {
+      "actor": "Peppa",
       "text": "Sorry, Daddy.",
       "end": 95.4
     }, {
@@ -459,20 +468,24 @@
       "text": "George is still riding a baby bike.",
       "end": 104.8
     }, {
+      "actor": "Danny",
       "text": "Yours is a baby bike too, Peppa.",
       "start": 106,
-      "end": 109
+      "end": 108.6
     }, {
       "text": "You’ve still got stabilisers.",
       "end": 111.3
     }, {
+      "actor": "Rebecca",
       "text": "I can ride without my stabilisers.",
       "end": 113.8
     }, {
+      "actor": "Suzy",
       "text": "Me too.",
       "start": 114.8,
       "end": 116
     }, {
+      "actor": "Danny",
       "text": "And me.",
       "end": 117.4
     }, {
@@ -483,9 +496,11 @@
       "text": "Are you coming, Peppa?",
       "end": 124
     }, {
+      "actor": "Peppa",
       "text": "No, I think I’ll stay here.",
       "end": 126
     }, {
+      "actor": "Suzy",
       "text": "See you later.",
       "start": 127.6,
       "end": 130.3
@@ -496,7 +511,7 @@
     }, {
       "actor": "Narrator",
       "text": "Peppa wishes she did not have stabilisers on her bicycle.",
-      "end": 135.4
+      "end": 135.2
     }, {
       "actor": "Peppa",
       "text": "Daddy, I don’t want stabiliers anymore.",
@@ -511,7 +526,7 @@
       "text": "Yes.",
       "end": 143.2
     }, {
-      "actor": "Mummy",
+      "actor": "Daddy",
       "text": "All right, Peppa. Let’s take them off.",
       "end": 146
     }, {
@@ -519,7 +534,7 @@
       "text": "Daddy Pig is taking the stabilisers off Peppa’s bicycle.",
       "end": 150
     }, {
-      "actor": "Daddy",
+      "actor": "Mummy",
       "text": "Are you sure you want to ride without stabilisers?",
       "end": 153.6
     }, {
@@ -615,10 +630,13 @@
       "text": "Danny, Suzy, Rebecca, look.",
       "end": 220
     }, {
-      "text": "I don’t need my stabilisers anymore. Look at me.",
+      "text": "I don’t need my stabilisers anymore.",
+      "end": 224
+    }, {
+      "text": "Look at me.",
       "end": 225.4
     }, {
-      "actor": "Danny and Suzy",
+      "actor": "Danny, Suzy, Rebecca",
       "text": "Hurrah!",
       "end": 226.8
     }, {
@@ -645,7 +663,7 @@
     }, {
       "text": "Oh, dear.",
       "start": 247.4,
-      "end": 248
+      "end": 249
     }, {
       "text": "Peppa has squashed Daddy Pig’s pumpkin.",
       "end": 252.4
