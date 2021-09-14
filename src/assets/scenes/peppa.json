@@ -26,11 +26,10 @@
       "font-size": "44px",
       "font-weight": "600",
       "transform": "translate(-50%, -50%)",
-      "color": "#cc11cc"
+      "color": "#bd00db"
     }
   },
   "footer": {
-    "label": "Best Friend",
     "styles": {
       "position": "absolute",
       "right": "16px",
@@ -49,7 +48,7 @@
     }
   },
   "play": [{
-    "label": "Best Friend",
+    "label": "Best Friend 💕",
     "videoId": "pDUASheI0aI",
     "speech": [{
       "actor": "Peppa",
@@ -345,7 +344,7 @@
       "end": 275
     }]
   }, {
-    "label": "Bicycles",
+    "label": "Bicycles 🚲",
     "videoId": "t4lljYv8MR4",
     "speech": [{
       "actor": "Peppa",
@@ -708,7 +707,7 @@
       "end": 282
     }]
   }, {
-    "label": "Mummy Pig's Birthday",
+    "label": "Mummy Pig's Birthday 🎂",
     "videoId": "uw1lGXliQYQ",
     "speech": [{
       "actor": "Peppa",
