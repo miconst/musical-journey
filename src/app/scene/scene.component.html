@@ -23,10 +23,22 @@
         </div>
         <!-- Scene footer -->
         <div [ngStyle]="scene.footer.styles">
+          <span>{{stageNames[stageIndex]}}</span>
+          <button mat-icon-button aria-label="stage menu" [disabled]="1 >= stageNames.length"
+            [matMenuTriggerFor]="stageMenu" #stageMenuTrigger="matMenuTrigger">
+            <mat-icon>{{stageMenuTrigger.menuOpen ?  'arrow_drop_up' :  'arrow_drop_down'}}</mat-icon>
+          </button>
+
+          <mat-menu #stageMenu="matMenu">
+            <button mat-menu-item *ngFor="let name of stageNames; index as i" [disabled]="i === stageIndex"
+              (click)="setStage(i)">
+              <span>{{name}}</span>
+            </button>
+          </mat-menu>
+
           <button mat-icon-button aria-label="previous stage" [disabled]="!hasPrevStage()" (click)="onPrevStage()">
             <mat-icon>navigate_before</mat-icon>
           </button>
-          <span>{{footer}}</span>
           <button mat-icon-button aria-label="next stage" [disabled]="!hasNextStage()" (click)="onNextStage()">
             <mat-icon>navigate_next</mat-icon>
           </button>

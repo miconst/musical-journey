@@ -18,23 +18,12 @@ export class SceneComponent implements OnInit {
   speechIndex = -1;
   scene?: SceneModel;
   errorMessage?: string;
+  stageNames: string[] = [];
 
   @ViewChild('player') playerRef?: VideoPlayerComponent;
 
   get stage(): Stage | undefined  {
     return this.scene?.play[this.stageIndex];
-  }
-
-  get footer(): string {
-    let label = this.stage?.label;
-    if (label) {
-      return label;
-    }
-    label = this.scene?.footer.label;
-    if (label) {
-      return `${label} : ${this.stageIndex + 1}`;
-    }
-    return '';
   }
 
   constructor(private _http: HttpClient, private _route: ActivatedRoute) { }
@@ -85,7 +74,7 @@ export class SceneComponent implements OnInit {
 
   onPrevStage(): void {
     if (this.hasPrevStage()) {
-      this._setStage(this.stageIndex - 1);
+      this.setStage(this.stageIndex - 1);
     }
   }
 
@@ -96,16 +85,17 @@ export class SceneComponent implements OnInit {
 
   onNextStage(): void {
     if (this.hasNextStage()) {
-      this._setStage(this.stageIndex + 1);
+      this.setStage(this.stageIndex + 1);
     }
   }
 
   private _setScene(scene: SceneModel): void {
     this.scene = scene;
-    this._setStage(0);
+    this.stageNames = scene.play.map((stage, index) => stage.label || `${(scene?.footer.label || '')}: ${index + 1}`);
+    this.setStage(0);
   }
 
-  private _setStage(stageIndex: number): void {
+  setStage(stageIndex: number): void {
     this.speechIndex = -1;
     const stage = this.scene?.play[stageIndex];
     if (stage) {
