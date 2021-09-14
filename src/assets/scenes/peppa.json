@@ -10,23 +10,23 @@
   },
   "styles": {
     "position": "relative",
-    "width": "960px",
-    "height": "618px",
+    "width": "866px",
+    "height": "598px",
     "background-color": "transparent",
     "background-repeat": "no-repeat",
     "background-size": "100% 100%",
-    "background-image": "url('assets/scenes/vintage-frame-1.png')"
+    "background-image": "url('assets/scenes/vintage-frame-2.png')"
   },
   "header": {
-    "label": "Peppa Pig",
+    "label": "✨ Peppa Pig ✨",
     "styles": {
       "position": "absolute",
-      "left": "488px",
+      "left": "440px",
       "top": "28px",
       "font-size": "44px",
       "font-weight": "600",
       "transform": "translate(-50%, -50%)",
-      "color": "#de11c2"
+      "color": "#cc11cc"
     }
   },
   "footer": {
@@ -34,7 +34,7 @@
     "styles": {
       "position": "absolute",
       "right": "16px",
-      "bottom": "16px",
+      "bottom": "8px",
       "font-size": "20px",
       "color": "#0a0840"
     }
@@ -44,8 +44,8 @@
     "height": 480,
     "styles": {
       "position": "absolute",
-      "left": "56px",
-      "top": "80px"
+      "left": "3px",
+      "top": "68px"
     }
   },
   "play": [{

@@ -8,23 +8,38 @@
   // }
 
   .scene-prompt {
-    padding: 1em;
+    padding: 1em 0;
 
     max-height: 20.5em;
     overflow-y: auto;
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .scene {
+    // justify-content: space-between;
     flex-wrap: nowrap;
 
     .scene-prompt {
-      max-height: 64em;
+      max-height: calc(100vh - 2em);
     }
+  }
+}
 
-    // .scene-stage {
-    //   padding: 1em;
-    // }
+@media (min-width: 1600px) {
+  .scene {
+    .scene-stage {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
+}
+
+@media (min-width: 1800px) {
+  .scene {
+    .scene-stage {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
   }
 }

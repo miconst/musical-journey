@@ -15,7 +15,8 @@
     display: block;
     cursor: pointer;
     font-weight: 600;
-    min-width: 100px;
+    min-width: 5em;
+    // padding-right: 1em;
 
     &:hover {
       text-decoration: underline dotted;
@@ -70,7 +71,7 @@
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .screenplay {
     font-size: 22px;
     flex-direction: column;
@@ -80,3 +81,14 @@
     }
   }
 }
+
+// @media (min-width: 1600px) {
+//   .screenplay {
+//     flex-direction: row;
+
+//     div[role="act"]:not(:last-child) {
+//       margin-right: 4em;
+//       margin-bottom: 1em;
+//     }
+//   }
+// }
