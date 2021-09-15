@@ -3,6 +3,10 @@
   flex-wrap: wrap;
   flex-direction: row;
 
+  background-image: linear-gradient(rgba(220, 0, 220, 0.2), rgba(220, 0, 220, 0)), url('../../assets/clouds.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, right 320px top 100px;
+
   // .scene-stage {
   //   padding: 0 1em 1em;
   // }
@@ -30,7 +34,10 @@
   .scene {
     .scene-stage {
       padding-left: 1em;
-      padding-right: 1em;
+    }
+
+    .scene-prompt {
+      margin-left: 1em;
     }
   }
 }
@@ -39,7 +46,10 @@
   .scene {
     .scene-stage {
       padding-left: 2em;
-      padding-right: 2em;
+    }
+
+    .scene-prompt {
+      margin-left: 2em;
     }
   }
 }
