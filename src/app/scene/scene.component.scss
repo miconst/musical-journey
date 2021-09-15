@@ -14,8 +14,14 @@
   .scene-prompt {
     padding: 1em 0;
 
+    flex-grow: 1;
+
     max-height: 20.5em;
     overflow-y: auto;
+  }
+
+  .scene-spacer {
+    flex-grow: 4;
   }
 }
 
