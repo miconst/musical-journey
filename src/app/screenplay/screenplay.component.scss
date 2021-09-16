@@ -2,7 +2,7 @@
   display: flex;
   padding: 6px;
   border-radius: 6px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(244, 206, 243, 0.24);
   font-size: 20px;
   flex-wrap: wrap;
 
@@ -14,7 +14,7 @@
   div[role="actor"] {
     display: block;
     cursor: pointer;
-    font-weight: 600;
+    // font-weight: 600;
     min-width: 5em;
     // padding-right: 1em;
 
@@ -60,7 +60,7 @@
 
     &[aria-selected="true"] {
       // font-weight: 600;
-      background-color: rgba(255, 255, 255, 0.25);
+      background-color: rgba(255, 255, 255, 0.4);
       color: #161680;
       text-decoration: underline dashed;
 
